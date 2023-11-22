@@ -1,0 +1,9 @@
+IF
+Global("pxoQuest","GLOBAL",4)
+Race(Myself,DWARF)
+THEN
+	RESPONSE #100
+	AddexperienceParty(20000)
+	SetGlobal("pxoQuest","GLOBAL",5)
+	StartDialog("tragar",[PC])
+END

@@ -1,0 +1,75 @@
+IF
+  AttackedBy([GOODCUTOFF],DEFAULT)
+  !Allegiance(Myself,ENEMY)
+THEN
+  RESPONSE #100
+    Enemy()
+END
+
+IF
+  See(Nearestenemyof(Myself))
+  HaveSpell(CLERIC_HOLD_PERSON)
+  !StateCheck(Nearestenemyof(Myself),STATE_SLEEPING)
+  !StateCheck(Nearestenemyof(Myself),STATE_HELPLESS)
+THEN
+  RESPONSE #100
+    Spell(Nearestenemyof(Myself),CLERIC_HOLD_PERSON)
+END
+
+IF
+  See(Nearestmygroupoftype)
+  HPPercentLT(Lastseenby(Myself),50)
+  HaveSpell(CLERIC_CURE_CRITICAL_WOUNDS)
+THEN
+  RESPONSE #100
+    Spell(Lastseenby(Myself),CLERIC_CURE_CRITICAL_WOUNDS)
+END
+
+IF
+  See(Nearestmygroupoftype)
+  HPPercentLT(Lastseenby(Myself),60)
+  HaveSpell(CLERIC_CURE_SERIOUS_WOUNDS)
+THEN
+  RESPONSE #100
+    Spell(Lastseenby(Myself),CLERIC_CURE_SERIOUS_WOUNDS)
+END
+
+
+IF
+  See(Nearestenemyof(Myself))
+  HaveSpell(CLERIC_HOLY_POWER)
+THEN
+  RESPONSE #100
+    Spell(Myself,CLERIC_HOLY_POWER)
+END
+
+IF
+  See(Nearestenemyof(Myself))
+  HaveSpell(CLERIC_RIGHTEOUS_MAGIC)
+THEN
+  RESPONSE #100
+    Spell(Myself,CLERIC_RIGHTEOUS_MAGIC)
+END
+
+IF
+  See(Nearestenemyof(Myself))
+  HaveSpell(CLERIC_DRAW_UPON_HOLY_MIGHT)
+THEN
+  RESPONSE #100
+    Spell(Myself,CLERIC_DRAW_UPON_HOLY_MIGHT)
+END
+
+IF
+  AttackedBy([0],DEFAULT)
+THEN
+  RESPONSE #100
+    Attack(Lastattackerof(Myself))
+END
+
+IF
+  See(Nearestenemyof(Myself))
+THEN
+  RESPONSE #100
+    AttackReevaluate(Nearestenemyof(Myself),30)
+END
+

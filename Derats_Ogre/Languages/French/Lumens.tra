@@ -1,0 +1,175 @@
+@1 = ~Mes merveilleuseries sont des marchandises fantastiques que vous ne trouverez nul par ailleurs, bienheureux client. Entre les sorts uniques de 11ème niveau que crée pour moi ma tante Bertèle l'archimagus et les objets enchantés que je fabrique moi même, vous ne saurez pas où poser le regard dans mon truculent magasin.~~Mes merveilleuseries sont des marchandises fantastiques que vous ne trouverez nul par ailleurs, bienheureuse cliente. Entre les sorts uniques de 11ème niveau que crée pour moi ma tante Bertèle l'archimagus et les objets enchantés que je fabrique moi même, vous ne saurez pas où poser le regard dans mon truculent magasin.~
+@11 = ~Très bien, alors montrez ça, s'il vous plaît.~ //MARCHAND
+@12 = ~Des sorts de niveau 11 ? Montrez moi ça, vite !!!!!~ //MARCHAND
+@13 = ~D'accord. Bon, c'est bien beau tout ça mais pour le commerce, j'ai le temps. Je suis venu pour mon ami, en fait *désigne Tragar*.~ //303
+@14 = ~D'accord. Bon, c'est bien beau tout ça mais pour le commerce, j'ai le temps. Je viens vous voir au sujet d'un ogre bleu qui raconte qu'il était un nain avant d'avoir ingéré une de vos potion~ //5
+@15 = ~Merci du renseignement. Je reviendrais.~
+
+@2 = ~Ha mais.... cher client, quand on vend des merveilleuseries, on est forcement merveilleux, n'est ce pas ?~
+@21 = ~Bon, d'accord. Alors c'est quoi des merveilleuseries ?~ //1
+@22 = ~Ça se tient. Alors, montrez moi vos merveilles, pour voir.~ //3
+@23 = ~C'est ça. Bon, je viens pour mon ami l'ogre, là.*désigne Tragar*~ //303
+@24 = ~C'est ça. Bon, je suis venu vous voir pour discuter d'un ogre bleu qui 'a raconté avoir été un nain avant de consommer une de vos potions~ //5
+
+@3 = ~Merveilleuseries, pas "merveilles". Mes articles ne sont pas à proprement parler des "merveilles" telles qu'en ont conçus les dieux ou les érudits, mais il s ont tous quelque chose de merveilleux en eux. De plus ils sont véritablement uniques, vous ne les trouverez nulle pars ailleurs que sur mon étal. Non, vraiment, jetez un œil monsieur, et je vous garanti que vous ne serez pas déçu.~~Merveilleuseries, pas "merveilles". Mes articles ne sont pas à proprement parler des "merveilles" telles qu'en ont conçus les dieux ou les érudits, mais il s ont tous quelque chose de merveilleux en eux. De plus ils sont véritablement uniques, vous ne les trouverez nulle pars ailleurs que sur mon étal. Non, vraiment, jetez un œil, madame, et je vous garanti que vous ne serez pas déçue.~
+@31 = ~Merveilles ou merveilleuseries, appelez ça comme vous voulez, mais montrez les moi nom de nom !~ //MARCHAND
+@32 = ~Unique vous dites ? Et bien, je demande à voir....~ //MARCHAND
+@33 = ~Mouais, bon.... On peut voir ?~ //MARCHAND
+@34 = ~En fait.... Non merci. Au revoir~
+
+@4 = ~Bonjour, cher client. Quelle merveilleuserie le merveilleux Lumens que je suis va t-il pouvoir vous offrir aujourd'hui ?~~Bonjour, chère cliente. Quelle merveilleuserie le merveilleux Lumens que je suis va t-il pouvoir vous offrir aujourd'hui ?~
+@41 = ~Merveilleux ? C'est un peu pompeux, non ?~ //2
+@42 = ~Qu'est-ce-que sont des "merveilleuseries" ?~ //1
+@43 = ~Montrez moi vos marchandises, s'il vous plaît.~ //MARCHAND
+@44 = ~Rien de spécial, je viens pour mon ami l'ogre, là. *désigne Tragar*~ //303
+@45 = ~Rien de spécial, je viens vous voir au sujet d'un nain qui aurait été transformé en ogre bleu après avoir ingéré une de vos potions.~ //5
+@46 = ~Rien de spécial, je ne faisais que passer~
+
+@5 = ~Une potion achetée chez moi ? Impossible, je ne crois pas vendre de potion de transformation en ogre. Encore que... Attendez ! Il est bleu, c'est la couleur des myrtilles. Ce pourrait-il que....~
+@51 = ~Quoi ? Crache le morceau, le gnome !~ //6
+@52 = ~Avez vous trouvé ce qui lui est arrivé ?~ //7
+
+@6 = ~Hola, on se calme, fougueux client. Je n'y suis pour rien dans ce qu'il lui est arrivé. Enfin je n'en dégage aucune responsabilité. Sur la potion que ledit nain à bu, il était bien écrit "potion "expérimentale" de renforcement permanent". C’était une expérience, et il était prévenu.~~Hola, on se calme, fougueuse cliente. Je n'y suis pour rien dans ce qu'il lui est arrivé. Enfin je n'en dégage aucune responsabilité. Sur la potion que ledit nain à bu, il était bien écrit "potion "expérimentale" de renforcement permanent". C’était une expérience, et il était prévenu.~
+@61  = ~Aucune responsabilité ? Cet "ogre" souffre de son état et ne peux pas se montrer en ville sans que la milice veuille le tuer, et c'est tout ce que ça vous fait ?~ //208
+@62 = ~Expérimentale ? Mais quel genre de commerçant êtes vous ?~ //205
+@63 = ~Et c'est tout ? Vous avez au moins un moyen de le faire revenir à son état normal, quand même !~ //203
+
+@7 = ~Oui, je pense. Je n'ai qu'une seule potion qui contient des myrtilles - c'est pour le goût - :  potion expérimentale de renforcement musculaire permanent. Je vois maintenant ce que donne l'expérience. Mais ne m'en veuillez pas, je ne m'en sens pas responsable. Le terme "expérimentale" était bien écrit sur l’étiquette, et ce monsieur nain l'a bu en parfaite connaissance de cause.~
+ //= ~62 =
+@71 = ~Bien, alors si vous savez ce qui l'a mis dans cet état, peut-être pourriez vous lui donner de quoi lui rendre sa forme normale ?~ //203
+@72 = ~Drôle d'expérience que celle qui change les clients en ogre. Mon ami ne peut plus faire un pas dehors sans que la milice ne veuille le tuer.~ //8
+
+@8 = ~Et vous m'en voyez sincèrement désolé; mais que puis-je y faire ? Je n'ai malheureusement rien prévu pour contrer un éventuel effet négatif de ma potion, et de plus le magasin ne pratique pas le service après vente. Du moins, pas gratuitement.~
+@81 = ~Vous êtes dur en affaire, vous. Très bien, que demanderiez vous pour trouver un moyen de contrer l'effet indésirable de votre potion ?~ //209
+@82 = ~C'est un comble ça. Et vous vous dites commerçant ?~ //10
+@83 = ~La bonne blague. Et que diriez vous si je proposais de raconter à l'inspecteur Breggat ce que vous faites de vos clients ?~ //9
+
+@9 = ~Pourquoi l'inspecteur Breggat perdrait-il son temps avec un honnête commerçant comme moi ? Je ne fais que collectionner et vendre des objets exceptionnels, il n'y a rien de répréhensible à ça. C'est vrai, j'en invente certains et je les vends, et une drôle d'histoire est arrivée à votre ami. Mais je ne force aucun client à essayer mes potions.... il sont sur mon étal, avec la bonne mention qui les prévient. Vos menaces ne m'affectent pas, cher monsieur.~~Pourquoi l'inspecteur Breggat perdrait-il son temps avec un honnête commerçant comme moi ? Je ne fais que collectionner et vendre des objets exceptionnels, il n'y a rien de répréhensible à ça. C'est vrai, j'en invente certains et je les vends, et une drôle d'histoire est arrivée à votre ami. Mais je ne force aucun client à essayer mes potions.... il sont sur mon étal, avec la bonne mention qui les prévient. Vos menaces ne m'affectent pas, chère madame.~
+@91 = ~Mpff. Je vois. Vous demandez quoi pour inventer un remède à son état, alors ?~ //207
+@92 = ~Si c'est comme ça que vous le prenez, nous n'avons plus rien à nous dire, monsieur *s'en aller*.~
+
+@10 = ~Si fait, cher monsieur, et vous êtes ici dans mon échoppe. Si le magasin n'assure pas le service après vente, c'est tout simplement parce qu’aucun commerçant ne devrait perdre son temps et son argent à répondre à un client insatisfait de son achat après coup, puisque les gens sont de toute façon d'éternels insatisfaits. C'est une règle mathématique simple et facilement assimilable qui s’applique dans ma famille depuis cinq générations. Cela étant, il existe toujours des remèdes possible contre la magie, quelle quelle soit, alors je peux vous proposer pour  quelques piécettes de concocter une potion inverse  de celle qu'à ingéré votre ami ogre. Intéressé ?~~Si fait, chère madame, et vous êtes ici dans mon échoppe. Si le magasin n'assure pas le service après vente, c'est tout simplement parce qu’aucun commerçant ne devrait perdre son temps et son argent à répondre à un client insatisfait de son achat après coup, puisque les gens sont de toute façon d'éternels insatisfaits. C'est une règle mathématique simple et facilement assimilable qui s’applique dans ma famille depuis cinq générations. Cela étant, il existe toujours des remèdes possible contre la magie, quelle quelle soit, alors je peux vous proposer pour  quelques piécettes de concocter une potion inverse  de celle qu'à ingéré votre ami ogre. Intéressée ?~
+@101 = ~Ce dépend du prix.~ //301
+@102 = ~Oui.~ //301
+@103 = ~Donnez moi juste la recette, je saurais m'en débrouiller.~ //201
+
+@201 = ~Ça ne marche pas comme ça, mon bon monsieur. La potion qu'il faut créer doit être l'exacte inverse, ou presque, de celle qui est la cause du désagrément de votre ami, et comme je l'ai crée spontanément, je ne peux recréer l'autre que de la même manière; je dois réfléchir à ce qui la composera, la concocter et y ajouter les apport qui la rendront efficace. Ce n'est quelque chose dont je peux révéler le secret. Aussi disons que je ne vous demande de payer que mon travail de création, et je vous offre la concoction.~~Ça ne marche pas comme ça, ma bonne dame. La potion qu'il faut créer doit être l'exacte inverse, ou presque, de celle qui est la cause du désagrément de votre ami, et comme je l'ai crée spontanément, je ne peux recréer l'autre que de la même manière; je dois réfléchir à ce qui la composera, la concocter et y ajouter les apport qui la rendront efficace. Ce n'est quelque chose dont je peux révéler le secret. Aussi disons que je ne vous demande de payer que mon travail de création, et je vous offre la concoction.~
+@2011 = ~Vous êtes un loup dans les affaires, Lumens. D'accord, annoncez votre prix.~ //301
+@2012 = ~Comment pourrais-je être sûr que la potion marchera, vu ce que vous m'en dites ?~ //202
+
+@202 = ~La potion qu'à bu votre ami lui a bien fait de l'effet, non ? En créant sur le même principe une potion inverse, je devrais obtenir l'effet inverse. C'est simple, mais ça a toujours fonctionné ainsi.~
+@2021 = ~Hum. Si vous le dites. Bon, combien ?~ //301
+@2022 = ~Je ne sais pas. Tout ceci ne m'inspire pas confiance. Je vais plutôt aller trouver un vrai guérisseur *s'en aller*.~
+
+@203 = ~Oui, je pense connaître un moyen. Moyennant quelques piécettes, je peux vous concocter une potion qui devrait annuler les effets de celle que votre ami à bu. Intéressé ?~~Oui, je pense connaître un moyen. Moyennant quelques piécettes, je peux vous concocter une potion qui devrait annuler les effets de celle que votre ami à bu. Intéressée ?~
+@2031 = ~Vous n'assurez même pas un service après vente ? Après tout, c'est un article défectueux de votre magasin qui l'a mis dans cet état.~ //204
+//= 101 =
+//= 102 =
+//= 103 =
+
+@204 = ~Le magasin ne pratique pas le service après vente. C'est un principe qui court dans ma famille depuis cinq générations. Car où irait le commerce si tous les boutiquiers se mettaient à consacrer du temps et de l'argent à un client insatisfait de son achat après coup ? Les gens étant d'éternels insatisfaits, ce serait une spirale sans fin et la mise à mort de tous les commerces. Non, les Merveilleuseries de Lumens ne fait pas et ne fera jamais le service après vente, du moins pas gratuitement.~
+@2041 = ~Mpff. Je vois. Quel est le prix de la contre-potion, alors ?~ //301
+@2042 = ~Laissez tomber. Je préfère m'adresser à un vrai guérisseur, dans ce cas. *s'en aller*.~
+
+@205 = ~Un des plus grand, à n'en pas douter. Qui d'autre pourrait proposer des articles uniques défiant l'imagination et propres à transcender la réalité ? Cinq générations de Ratebois on été nécessaire pour amasser toutes ces merveilleuseries, et je n'en suis que plus fier de montrer mon magasin.
+J’admets, c'est vrai, que certains de ces articles sont de ma propre composition et qu'il ne sont que théoriques. Mais que serait la vie sans un peu de d'imprévu ? Notez cependant qu'aucun client n’achète mes articles sans connaissance de cause. Il y a une notice explicative ou prévenant du potentiel chaotique de mes trouvailles sur chacune de mes créations.~
+@2051 = ~Quand même.... métamorphoser un individu et le rendre bleu pastel, c'est un sacré effet pour une simple potion !~ //206
+@2052 = ~je vois. Et bien, tout commerçant que vous êtes, peut-être sauriez vous comment rendre à mon ami son état d'origine ?~ //203
+
+@206 = ~En effet. Et c'est bien pour ça que pour rendre à votre ami son état d'origine, je pense créer pour quelques piécettes une contre-potion tout aussi puissante. L'inverse de la celle qu'il a bu, pour être précis. Intéressé ?~~En effet. Et c'est bien pour ça que pour rendre à votre ami son état d'origine, je pense créer  quelques piécettes une contre-potion tout aussi puissante. L'inverse de la celle qu'il a bu, pour être précis. Intéressée ?~
+//= 2031 =
+//= 101 =
+//= 102 =
+//= 103 =
+
+@207  = ~Puisque c'est une de mes potions qui a métamorphosé ainsi votre ami, je peux pour quelques piécettes concocter une contre-potion, inverse de la première et qui devrait en annuler les effets. Cela vous intéresse ?~
+//= 2031 =
+//= 101 =
+//= 102 =
+//= 103 =
+
+@208 = ~J'en suis sincèrement désolé, croyez moi; mais que puis-je y faire ? Je n'ai malheureusement rien prévu pour contrer un éventuel effet négatif de ma potion, et de plus le magasin ne pratique pas le service après vente. Du moins, pas gratuitement.~
+//= 81 =
+//= 82 =
+//= 83 =
+
+//@209 = 207 =
+//= 101 =
+//= 102 =
+//= 103 =
+
+@210 = ~Oui, je me rappelle. Si vous êtes prêt à m'écouter, sachez que je peux concocter pour votre ami une potion inverse de celle qu'il a ingéré, et qui devrait lui rendre lui rendre sa forme originelle. Êtes vous intéressé ?~~Oui, je me rappelle. Si vous êtes prêt à m'écouter, sachez que je peux concocter pour votre ami une potion inverse de celle qu'il a ingéré, et qui devrait lui rendre lui rendre sa forme originelle. Êtes vous intéressée ?~
+// =3051 =
+// =3052 =
+
+@301 = ~Étant donné que je n'ai pas à disposition les ingrédients nécessaires à la création de la contre-potion, et que mon commis n'est toujours pas revenu de sa course, je ne vous demanderais que 150 pièces pour la potion, vu qu'il va falloir que vous alliez chercher les ingrédients vous même. A moins bien sur que vous préfériez attendre que mon commis revienne, mais je ne saurais vraiment pas vous dire combien de temps ça va prendre; il semblerais qu'il ait disparu, en fait.~
+@3011 = ~Donnez la liste, on va aller chercher ces ingrédients.~ //302
+@3012 = ~Nous allons attendre. Nous reviendrons. *s'en aller*.~
+
+@302 = ~Attendez un peu, je vous la rédige. Voilà. Vous pouvez mettre le temps que vous voulez pour trouver tout ça, mon magasin ne se déplacera pas et votre ami ogre ne disparaîtra pas. J'attendrais votre retour. Bonne chance.~
+@3021 = ~Au revoir *s'en aller*.~ //DONNER LISTE JOURNAL 501
+@3022 = ~Attendez ! Je souhaiterais voir vos articles avant de partir.~ //MARCHAND
+
+@303 = ~Oui, que puis-je faire pour votre gros ami ? Une cuirasse élastique à sa taille peut-être ? J'en ai justement une très belle qui est arrivée récemment, en cuir de caribou des steppes. Élégante, durable, et bien sur...~
+@3031 = ~...Non, ce n'est pas du tout ça. Cet ogre prétend qu'il est un nain et que c'est une potion achetée chez vous qui l'a changé en ogre à la peau bleue.~ //5
+
+@304 = ~Ah, des clients de retour. Ma boutique vous à donc inspiré quelques envies ?~
+@3041 = ~En fait nous revenons pour régler l'histoire de notre ami ogre "bleu" qui est là, vous vous rappelez ?~ //305
+@3042 = ~En fait nous revenons pour régler l'histoire de cet ogre bleu qui attend caché en ville, vous vous rappelez ?~  //305
+@3043 = ~C'est le cas oui; montrez-nous vos marchandises s'il vous plaît~ //MARCHAND
+//= 46 =
+
+@305 = ~Oui, je me rappelle. Alors, vous revenez vers moi parce que vous n'avez trouvé aucune solution "alternative" ? Soit. Ma proposition tient toujours  je peux vous concocter une potion qui produira l'effet inverse de celle qu'à bu votre ami ogre et qui devrait lui rendre sa forme de nain.~
+@3051 = ~Nous acceptons. Annoncez votre prix.~ //301
+@3052 = ~Nous acceptons. Pourquoi d'autre serions nous revenus ?~ //306
+
+@306 = ~Pourquoi reviendriez vous voir le merveilleux Lumens ? Pour ses fantastiques merveilleuseries, bien sur. Mais trêve de bavardage, je vous propose de concocter la potion pour 150 malheureuses pièces, parce que vous devrez m'aider. Mon commis ayant disparu, je n'ai ni nouveaux articles pour mon magasin ni ingrédients pour la potion. Vous allez donc devoir les trouver vous même. C'est malheureux, mais je ne peux vraiment pas faire autrement.~
+//= 3011 =
+@3061 = ~Nous préférons attendre votre commis. Nous n'avons pas le temps de faire des courses. * Au revoir*~
+
+@307 = ~De retour ? Malheureusement, mon commis n'est toujours pas revenu, et les marchandises qu'il devait rapporter non plus. Ne désirez vous toujours pas que je vous donne la liste des ingrédients à trouver pour la potion dont vous avez besoin ?~
+@3071 = ~Nous avons suffisamment attendu. Donnez la liste, on va aller chercher ces ingrédients.~ //302
+@3072 = ~Non, nous sommes juste revenus voir votre magasin.~ //MARCHAND
+@3073 = ~Tant pis, nous reviendrons. *s'en aller*~ //307
+
+@308 = ~Vous êtes de retour ! Alors, avez vous trouvé tout ce que je vous ai indiqué, afin que je puisse me mettre au travail ?~
+@3081 = ~Oui, nous avons tout ce qu'il vous faut. Prenez tout ainsi que 150 pièces d'or que voilà, et mettez vous au travail.~ //309
+@3082 = ~Oui, nous avons tout ce qu'il vous faut. Préparez la potion s'il vous plaît.~ //309
+//= 3072 =
+@3083 = ~Non, nous ne faisions que passer.~
+
+@309 = ~Voilà votre potion. Faites la boire à votre ami, et elle devrait lui rendre sa forme normale de nain. J’espère que ce petit service rendu vous laissera un bon souvenir de mon magasin. Bonne journée, cher clients.~
+@3091 = ~Pour les efforts que ça nous a demandé de trouver vos ingrédients, cette potion à intérêt à marcher, sinon je ne répond de rien. *s'en aller*~ //DONNER POTION JOURNAL 502
+@3092 = ~Merci Lumens. Nous reviendrons vous tenir au courant. *s'en aller*~ //DONNER POTION JOURNAL 502
+
+@400 = ~Ah, des clients de retour. Est-ce que quelque chose.... *aperçoit Tarngarn* Ha non, je crois savoir pourquoi vous venez...~
+//Externalisation Tragar 306
+
+@401 = ~Vous me voyez vraiment désolé que ma potion de dé-transformation n'ait pas marché. Sincèrement, je compatis. Mhhhh.... *réfléchi*. Je ne vois aucune solution permanente que je pourrais vous proposer, mais je vend toujours un sort qui peut servir : "Caméléon". Si vous pouvez le faire rendre permanent par un mage compétent, il pourrais vous tirer d'affaire. C'est malheureusement tout ce que j'ai à vous proposer.~
+@4011 = ~Et vous croyez que ça va suffire ?~ //402
+@4012 = ~Et vous n'êtes pas vous même capable de lancer Permanence ?~ //403
+@4013 = ~Vous êtes vraiment un commerçant malhonnête, vous savez ?~ //406
+
+@402 = ~Je n'ai rien d'autre à proposer, je l'ai dit. Je pensais sincèrement que ma dernière potion aurait l'effet désiré, et j'ai mis deux ingrédients roses pour cela. Quelque chose m'a échappé dans la recette, je l’admets, mais je ne vois vraiment pas quoi faire d'autre.~
+//Externalisation Tragar 307
+
+@403 = ~Si je le pouvais, sachez bien que je l'aurais proposé. Je ne connais ce sort que de nom, je n'ai pas l'expérience nécessaires pour maîtriser un sort aussi puissant. Mais d'autres le pourrons sûrement. Tenez, je peux faire "encore" un geste commercial : si vous trouvez un mage pour lancer caméléon et permanence sur monsieur le nain bleu (monsieur ? *en s'adressant à Tarngarn*), je paierais 10% des frais demandés par le mage.~
+@4031 = ~Quoi ? Mais c'est malhonnête !!~ //405
+@4032 = ~"Encore" ? Mais c'est normal que d'aider vos clients si ce sont vos articles qui ont crée leur problème, non ?~ //407 (Si pas encore dialogue 10 ou 204)
+@4033 = ~10% c'est peu, mais vu le prix que risque de demander le mage si nous le trouvons, ça va représenter une grosse somme. Vous êtes sur de ce que vous offrez ?~ //Externalisation Tragar 39
+@4033 = ~Merci, c'est une offre généreuse. Il ne nous reste qu'à trouver un mage qui pourrait lancer les deux sorts.~ //Externalisation Tragar 309
+
+@405 = ~Comment ça malhonnête*visiblement agacé* ?! Je ne PEUX pas lancer ce sort. Vous croyez que je refuse par intérêt ? Mais pour qui me prenez vous ? Je ne peux pas lancer ce sort, et j'essaie de faire ce que je peux pour vous aider. Qu'est-ce qu'il vous faut de plus ?~
+//Externalisation Tragar 308
+
+@406 = ~Comment ça malhonnête*visiblement agacé* ?! J'ai essayé de vous aider, et j'essaie encore. Vous croyez que je cherche à vous vendre ce sort mineur par pur intérêt ? Mais pour qui me prenez vous ?~
+//Externalisation Tragar 308
+
+@407 = ~Oui, encore. La potion que j'ai concocté pour vous était déjà un gage de bonne volonté de ma part vu le prix que vous l'avez payé, car le magasin ne pratique pas le service après vente. Je vous fais aujourd’hui une autre offre généreuse qui n'entre pas dans les règles du magasin; je pense que vous devriez en être satisfaits.~
+@4071 = ~Non mais.... c'est.... *s’énerver*~//Externalisation Tragar 38
+@4072 = ~Ha ? Et bien, merci alors.~ //Externalisation Tragar 39
+
+@501 = ~Rencontre avec un ogre bleu
+J'ai trouvé le marchand qui à transformé le nain Tragar en un ogre bleu. Il m'a demandé de trouver certains ingrédients pour concocter une potion réparatrice.~
+@502 = ~Rencontre avec un ogre bleu
+J'ai fourni à Lumens tous les ingrédients qui lui fallait pour concocter une potion réparatrice. Cette potion devrait rendre à Tragar, l'ogre bleu, sa forme de nain.~

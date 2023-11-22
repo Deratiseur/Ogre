@@ -1,0 +1,58 @@
+@0 = ~L'ogre et le gnome, une histoire de bleu~
+@1 = ~Tragar~
+@2 = ~Lumens~
+@3 = ~Recette de la potion anti-transformation en ogre (bleu)~
+@4 = ~Recette de la potion anti-transformation en ogre (bleu) :
+
+Pour concocter cette potion qui devrait rendre à un ogre bleu sa forme de nain "rose", j'ai besoin des ingrédients suivants :
+
+Deux queues de rat (une toute petite bête bien faible pour contrer l'effet de force des poils d'ogre de la précédente potion).
+
+Un lotus rose (Pour apporter la couleur rose. Fleur de la perversion réservée aux camés, contraire aux myrtilles de la précédente potion, fleur du délice pour les pâtissières).
+
+Une patte de lapin (Parce qu’un peu de chance, quand on espère un effet précis, ça aide toujours).
+
+Du fromage (pour le goût, parce que le queues de rat et le lotus rose, hein, heu... bon).
+
+Une opale d'eau (une gemme pilée pour enrichir le mélange, et tant qu'à faire rose pale pour adoucir l'effet du lotus rose).
+
+De la poudre de fée (pour que les effets de la potions soient permanents).~
+@5 = ~Queue de rat~
+@6 = ~C'est tout ce qui reste du rat que vous avez massacré.~
+@7 = ~Patte de lapin~
+@8 = ~Cette patte à été coupée sur le cadavre du lapin qui a malencontreusement croisé votre route.~
+@9 = ~Lotus rose~
+@10 = ~Cette fleur qui a des vertus hallucinogènes quand on la renifle est très prisée des drogués en tout genre.~
+@11 =  ~Poudre de fée~
+@12 =  ~Cette fiole de terre cuite contient de la fine poudre de fée. Ce précieux composant doit pouvoir être utilisé pour de nombreuses manipulations magiques.~
+@13 =  ~Fromage~
+@14 =  ~Ce morceau de fromage sent bon et a l'air savoureux.~
+@15 = ~Aux merveilleuseries de Lumens~
+@16 = ~Tarngarn Briseroche~
+@17 = ~Potion de dé-transformation en ogre bleu~
+@18 = ~Cette potion a été concoctée par Lumens, le marchand gnome excentrique. Elle devrait permettre à Tragar, le nain qui a été transformé en ogre bleu, de retrouver sa forme et sa couleur normales. Enfin, si la potion produit l'effet escompté....
+
+Non-utilisable par :
+N'importe qui d'autre que Tragar.~
+@19 = ~Sœur de la tempête~
+@20 = ~La beauté de cette arme finement ciselée est rehaussée par les minuscules runes de puissance qui sont gravées sur sa surface. Beaucoup de temps et d'efforts ont été consacrés à la confection de cette arme. Une faible lueur bleue semble émaner des runes qui la recouvrent.
+
+PARAMETRES
+
+Capacité de combat :
+5% de chance à chaque coup de créer une chaîne d'éclair qui inflige 4D6 points de dégâts (sans distinction entre alliés et ennemis)
+2% de chance à chaque coup que la foudre vienne frapper l’adversaire pour 4D6 points de dégâts.
+
+TAC0 : +1
+Dégâts : 1D8 +1
+Type de dégâts : Tranchant 
+Poids : 4
+Facteur de Vitesse : 4 
+Compétence : Hache
+Type d'arme : à 1 main
+Force nécessaire : 10
+Inutilisable par :
+Druides
+Clercs
+Mages
+Voleurs~

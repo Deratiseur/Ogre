@@ -1,0 +1,8 @@
+IF
+	AreaCheck("AR0700")
+	Global("Pxo_Gnom_spawn","GLOBAL",0)
+THEN
+	RESPONSE #100
+	CreateCreature("Pxolume",[500.2129],13)
+	SetGlobal("Pxo_Gnom_spawn","GLOBAL",1)
+END

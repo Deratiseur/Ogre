@@ -1,0 +1,122 @@
+@1 = ~Do not hit! Tragar nice!~
+@11 = ~Well, well. And why should I spare you, filthy ogre?~ //2
+@12 = ~A nice ogre? We've seen everything.~ //2
+@13 = ~What is this BLUE ogre?~ //2
+
+@2 = ~Tragar no ogre. Tragar dwarf. Tragar needs help.~
+@21 = ~Do you say to be a dwarf?  No, you're an ogre. What has happened to you, Tragar?~ //10
+@22 = ~Tragar dwarf? What is this all about? Do not take the mickey out of me, ogre.~ //3
+@23 = ~Do you need help? Go and look for your tribe.~ //6
+@24 = ~I do not have the time to listen to the rantings of a smelly ogre. *Leaving*~ //-->202
+
+@3 = ~Tragar not lie. Tragar really dwarf. Tragar drink potion, become blue ogre, but Tragar always dwarf in mind.~
+@31 = ~Potion? I really feel that you takes the mickey out of me, and I do not like it very much.~ //7
+@32 = ~You drank a potion and became a blue ogre?~ //4
+@33 = ~Okay, and I'm the King of Cormyr!~ //7
+
+@4 = ~Yes, like that! Tragar drink potion, Tragar become blue ogre. Tragar no more dwarf. You help Tragar?~
+@41 = ~I see. Well, okay. Come with us, we'll help you.~ //9
+@42 = ~I do not know. Your story does not seem clear to me. A potion that would turn into a blue ogre? Never heard of.~ //5
+@43 = ~Tragar takes me for a fool, and Tragar will regret it.~ //8
+
+@5 = ~It's true! Tragar drink potion, become blue ogre. Potion dwarf merchant!~
+@51 = ~The potion would come from a dwarven merchant? Considering the extravagance that characterize them, it would explain many things. Well, okay. Come with us, we'll help you.~ //9
+@52 = ~Hmm... It seems still weird to me. Maybe I'll go looking for the dwarven merchant, but you stay here. *Leaving*~ //-->205 JOURNAL 40
+
+@6 = ~You evil. Tragar not need you. Leave!~
+@61 = ~Well said. Farewell ogre. *Leaving*~ //-->204 JOURNAL 401
+@62 = ~Wait, I was joking. What happened to you?~ //10
+@63 = ~No one talks to me like that, and much less a filthy ogre. On guard!~ //8
+
+@7 = ~It's true! You evil. You leave. Tragar not need you.~
+@71 = ~You're right. Farewell ogre. *Leaving*~ //-->204 JOURNAL 401
+@72 = ~Oh no, not so fast. An ogre who hangs in town, he must be worth his weight in gold to the authorities of the city.~ //8
+
+@8 = ~You look for fight? Tragar nice, not wanting to fight.~
+//  Keldorn takes part prohibiting attack
+@81 = ~*Attack*~ //JOURNAL 402
+@82 = ~*Leaving*~ //-->204 JOURNAL 401
+
+@9 = ~Okay, if you promise protect me militia.~
+@91 = ~Against the militia? That was not expected. No thank you, we do not want to have the city after us. Rather wait here, we will look for this merchant and come back to you.~ //11 JOURNAL 40
+@92 = ~Do not worry, as long as you will be with us, we will guarantee your safe passage.~ // JOINT JOURNAL 40
+
+@10 = ~Dwarf merchant sell fine strength potion. Tragar buy potion, drink potion, Tragar become ogre, blue.~
+@101 = ~Is the potion sold by a dwarven merchant that would have turned you into this condition? Considering the extravagance that characterizes the dwarves, it would explain a lot of things. Well, it's okay. Come with us, we'll help you.~ //9
+@102 = ~I see. Tell us where is the merchant, we'll meet him.~ //201
+
+@201 = ~Okay. Merchant is place merchants. Tragar wait.~  //205 JOURNAL 40
+
+@202 = ~You come back. What want?~
+@2021 = ~I thought, and your story intrigues me. Do you want to tell me more?~ //203
+@2022 = ~I said to myself that the head of an ogre hanging around in the city would be dear to the authorities.~ //8
+
+@203 =  ~Tragar find good strength potion. Tregar drink potion. Tragar become blue ogre. Tragar no more dwarf.~
+//= 31 =
+//= 32 =
+//= 33 =
+
+@204 =  ~You leave. Tragar no like you.~ // EXIT JOURNAL 401
+
+@205 =  ~You come back. Have found?~
+@2051 =  ~We have a potion that should give you back your normal shape, Tragar.~ //30
+@2052 =  ~Yes. We talked to the merchant, he gave us a list of ingredients to concoct a potion to heal you.~ //207
+@2053 =  ~No, not yet. We had come just to see if you were still here.~ //206
+
+@206 =  ~Tragar no move. Tragar wait.~ // EXIT
+
+@207 =  ~Okay. Tragar can help you if want.~
+@2071 =  ~No, thank you. We were just coming to keep you informed; we do not need you. Wait here, we will return.~ //206
+@2072 =  ~We came for that. Come with us, Tragar.~ //208
+
+//208  = 9 =
+@2081 = ~Against the militia? That was not expected. No, thank you, we do not want to have the city after us. Rather wait here, we will come back.~ //206 JOURNAL 40
+//= 92 = JOURNAL 40
+
+@30 =  ~Okay. Tragar drink this now.~ // JOURNAL 404
+@301 = ~It worked! I can not thank you enough, my friends. But...... Ops! I am still blue!~
+@3011 = ~Let's leave! We'll have to go back to the merchant.~ //304
+@3012 = ~I suggest you to go back to the merchant to complain yourself, because he surely won't believe us. To him, all customers are "always dissatisfied".~ //302// Seulement si Lumens dialogue 10 ou 204 S_JOURNAL 407
+@3013 = ~This is unfortunate, but it's like that. You'll have to do that.~ //303
+@3014 = ~Do you speak normally now?~ //3010
+
+@302 = ~What bad luck. But I've waited long enough. I came to the town for a job, I hope it is not too late to fulfill it. I have took my shape back, my color will have to wait. The return to the clan will be lively, that's for sure. Thank you again, my friends. Maybe we'll meet again one of these days.~ // FIN S_JOURNAL 407
+
+@303 = ~Hmm.... it's surprising that you take it like that after you have spent time helping me. But I understand. Maybe it was too long. It's up to you; I thank you for what you did, and I will solve this latter problem by myself. Thank you again, my friends. Farewell.~ // FIN S_JOURNAL 407
+
+@304 = ~If possible, yes, and I thank you. But this time I will not let you go alone. I may be blue, but I'm again a dwarf. So I can walk around the town without too much trouble (except for strange looks and mocking laughters, of course).~
+@3041 = ~If you want to join us, you are welcome.~  //JOINT U_JOURNAL 406
+@3042 = ~Indeed we are already too many. Let's rather agree about a corner where you will be more comfortable to wait for us.~ //305
+
+@305 = ~My friends, it is not said that I would stay still sitting somewhere waiting. I came to the town for a job, and I intent to fulfill it if there is still time. Thank you for what you have done for me, and about the rest, I'll manage. Thank you again.~ // FIN S_ JOURNAL 405
+
+@306 = ~Sir, as you can see, I'm still blue, and this due to your potion of permanent strength. So I would really appreciate that you find a solution, effective this time, to restore my natural color.~
+//Externalisation Lumens 401
+
+@307 = ~Calm down. I will take my leave. I have a job to fulfill in town, and I've long overdue it. I do not have the time to wait for another calamitous solution, then I'll finish what I have to do like that, and I will solve the case of my color returning to the clan. It will welcome me with a smile, that's for sure.~ //QUIT S_JOURNAL 408
+
+@308 = ~Stop! I think everyone should calm down. I do not have any time to look for a powerful mage, I have a job to fulfill here. Never mind, I'll take my leave and do what I have to do; I will look for an effective solution when I would return home. Sure, they will welcome me with a smile, at the clan.~ //QUIT S_JOURNAL 408
+
+@309 = ~Hmm.... Actually I have a job to fulfill in town, and after waiting so long I do not have the time to look for a skilled mage. Never mind, I'll take my little leave, and see what I can do when I'm back to the clan. It is sure they will have a good laugh welcoming me. I thank you again, good luck for the future.~ //QUIT S_JOURNAL 409
+
+@3010 = ~Oh yes really! It feels good, too. Stuck in my ogre shape, I had troubles in formulating complex sentences. I found how to express myself by going back to basics, but it was not great. Oh blah, Oh blah, it works. So much the better. Let's continue.~
+@30101 = ~Okay. We will meet again the merchant.~ //304 U_JOURNAL 406
+//= 3012 =
+@30103 = ~That's fine. Now we can leave you.~ //303 S_JOURNAL 407
+
+@40 = ~Meeting wih a blue ogre
+In the Graveyard of Athkatla I met a blue... ogre... hiding from people. He told me, indeed, to be a transformed dwarf, and I decided to help him regain his normal shape.~
+@401 = ~Meeting with a blue ogre
+In the Graveyard of Athkatla I met a blue... ogre... hiding from people. He told me, indeed, to be a transformed dwarf, I did not believe him.~
+@402 = ~Meeting with a blue ogre
+In the Graveyard of Athkatla I met a blue... ogre... hiding from people. He told me, indeed, to be a transformed dwarf, but I did not believe him and I killed him.~
+@405 = ~Meeting with a blue ogre
+The potion made the ogre Tragar retake his dwarf shape, but he still is blue. I offered to help him but he refused to stay alone, and as I did not want to recruit him, he left.~
+@406 = ~Meeting with a blue ogre
+The potion made the ogre Tragar retake his dwarf shape, but he still is blue. We have to talk again to Lumens to further fix his color.~
+@407 = ~Meeting with a blue ogre
+The potion made the ogre Tragar retake his dwarf shape, but he still is blue. Whatever, it is no more our business.~
+@408 = ~Meeting with a blue ogre
+We have talked to Lumens again about the condition of Tarngarn. The discussion is finished fishtail, as Tarngarn wanted to avoid violence.~
+@409 = ~Meeting with a blue ogre
+We have talked to Lumens again about the condition of Tarngarn. The discussion is finished fishtail, as Tarngarn did not have the patience to wait for another theoretical solution.~

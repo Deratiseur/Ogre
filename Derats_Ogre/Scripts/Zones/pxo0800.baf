@@ -1,0 +1,9 @@
+IF
+	Global("Pxo_Ogre_spawn","GLOBAL",0)
+	AreaCheck("AR0800")
+	!Exists("Pxotrag")
+THEN
+	RESPONSE #100
+		SetGlobal("Pxo_Ogre_spawn","GLOBAL",1)
+		CreateCreature("Pxotrag",[1709.1297],3)
+END

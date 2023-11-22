@@ -1,0 +1,157 @@
+@101 = ~Choppe de beuverie réussie~
+@102 = ~Choppe de beuverie réussie :
+
+Cette choppe incrustée de runes distordue a le pouvoir de rendre tout liquide dont elle est remplie alcoolisé, et d'en démultiplier le pouvoir. Ainsi, quelle que soit la beuverie à laquelle l'utilisateur prend part avec cette choppe magique, il est sur d'avoir l'ivresse.
+
+PARAMETRES :
+
+Boire à la choppe rend immanquablement l'utilisateur saoul.
+Attention à l'usage abusif.~
+
+@103 = ~Le Grand Livre Bleu De la Vérité Ultime~
+@104 = ~Le Grand Livre Bleu De la Vérité Ultime
+
+De nombreux sages connaissent l'existence de ce livre qui renferme tout le savoir de l'univers ainsi que tous les sorts crées par les magiciens depuis que le monde existe. L'aura qui s'en dégage est si forte que le moins doué des apprentis magiciens peut la détecter.
+Malheureusement, le Grand Livre Blanc De la Vérité Ultime est rédigé en énochien archaïque du 3éme millénaire, langage d'une telle obscurité de plus personne, de nos jours, n'est capable de le déchiffrer : même un sort de "Souhait" prononcé par une divinité ne peut en percer le sens (l'énochien archaïque, c'est quelque chose !).
+Le livre contenant tous les sorts, on y trouve bien sûr celui intitulé "Lire sans peine l'énochien archaïque du 3eme millénaire". Quel dommage qu'il soit, lui aussi, rédigé en énochien archaïque...~
+
+@105 = ~Grand Précis Des Arts Multiples~
+@106 = ~Grand Précis Des Arts Multiples
+
+Ce livre daté du 3ème millénaire et rédigé en énochien archaïque décrit en détails toutes les techniques et connaissances nécessaires et appliqués par/pour tous les métiers connus depuis la création de l'univers.
+Il fonctionne comme un traité magique, et lu dans son intégralité, il permet à son utilisateur une polyvalence sans bornes, lui permettant d'être de tous les métiers & classes existants.
+Il permet bien sur au lecteur d'avoir les connaissances d'un traducteur et de lire l'énochien archaïque du 3ème millénaire sans peine, si nécessaire.~
+
+@107 = ~Détecteur Pachydermo-soupçonneux d'Anenyl le fourbe.~
+@108 = ~Détecteur Pachydermo-soupçonneux d'Anenyl le fourbe.
+
+Cet anneau de jade fût commandé par le seigneur Anenyl du Téthir, au premières heures de sa folie, avant qu'il ne soit complètement dévoré par la paranoïa et ne s'enferme à jamais dans sa forteresse, en ruine depuis. Nul ne sait quel forgeron de génie à pu produire cet anneau, de même que nul ne sait comment il a pu se retrouver dans le stock du magasin...
+Cet artefact permet de repérer les éléphants métamorphosés. Utilisé pour révéler la véritable forme d'une créature, il devient rouge si la cible est un éléphant métamorphosé, ne réagi pas dans le cas contraire.
+
+PARAMETRES :
+
+Détection d'éléphant métamorphosé deux fois par jour.~
+@1081 = ~Détection de Pachyderme métamorphosé~
+@1082 = ~La cible n'est pas un éléphant métamorphosé.~
+
+@109 = ~Carapace de Neonem le Malicieux.~
+@1010 = ~Carapace de Neonem le Malicieux.
+Cette carapace, forgée par Neomem le maudit, tortue-garou de son état, lui permettait d'éviter les pièges lorsqu'il était métamorphosé. En effet, sa lenteur de tortue ne le limitait pas à un pied sur un piège, et lui laissait endurer longtemps la souffrance des dits pièges, ce qui était plutôt gênant... Il fallait y remédier, d'où la création de cet objet.
+
+PARAMETRES :
+Cette carapace donne à toute tortue qui l'enfile les capacité d'un voleur de niveau 7.~
+
+@1011 = ~Flèche tueuse de tout~
+@1012 = ~Flèche tueuse de tout
+
+La flèche tueuse de tout est enchantée avec deux magies : la première, tirée de la nécromancie, lui permet de tuer la créature d'un certain type si elle rate un jet de sauvegarde. La deuxième magie est d'ordre entropique, afin d'être capable d'affecter un grand nombre de créatures, quasiment tous les types de créatures existant sur Faerun.
+
+PARAMETRES :
+Quand la flèche est tirée, le type de créature dont elle est tueuse est choisie aléatoirement, et si la créature touchée par la flèche est du type correspondant, elle doit réussir un jet de sauvegarde contre la mort à -6 ou mourir.
+La flèche peut donc virtuellement tuer d'un coup n'importe quelle créature.
+
+Dégâts : 1d6
+Type de dégâts : projectile (perforant)
+Poids : 0
+Arme de jet : arc
+Non utilisable par :
+Clerc
+Druide
+Mage~
+
+@1013 = ~Discombulateur merveilleux.~ // Pas encore fait, plus de 3500 effets possibles.
+@1014 = ~Discombulateur merveilleux.
+
+Le plaisir de la découverte, l'ivresse de la fantaisie....
+Le Discombulateur merveilleux et une construction gnomique fantastique, capable de tordre la réalité pour produire un  effet magique.
+Le discombulateur est capable de générer n'importe quel effet magique, car il est d'une puissance extraordinaire. Spectacle assuré !
+
+PARAMETRES :
+
+Capacités spéciales (une charge): Magie merveilleuse.~
+
+@1015 = ~Potion surprise.~
+@1016 = ~Potion surprise.
+
+Il est impossible de connaître l'effet de cette potion. Non conventionnelle, elle n'est pas identifiable. Elle fait partie des multiples potions crées par le gnome alchimiste Oswald Tordviolon, qu'il testait sur des vaches à Kuldahar.
+L'un des commis du magasin à retrouvé cette potion dans l'herbe sous le grand chêne, et elle fait à présent parti du stock de l'échoppe.
+
+Il n'y a malheureusement aucun moyen de savoir ce qu'elle fait autrement qu'en la buvant.~
+
+@1017 = ~Lyre de musicalité viscérale.~
+@1018 = ~Lyre de musicalité viscérale
+
+Cette lyre maudite a été crée pour Gwendaelle Diar'sélie, barde excentrique dont l'amour pour la musique n'avait d'égal que le talent. Gwendaelle était persuadée que la musique était la plus belle chose existante dans ce monde, bien moins frivole que les passes d'armes et moins dangereuse que les arts magiques. Au premières heures de sa folie mégalomane, elle fit fabriquer cette lyre, afin que "tout le monde puisse ajouter une note à la musique du monde". La lyre est maudite, et quiconque en joue, ne serait-ce qu'en grattant quelques cordes, et aussitôt investi des mêmes talents musicaux et du même amour de la musique que Gwendaelle elle même, avec pour conséquence d'oublier totalement son métier actuel pour embrasser celui de barde. L'effet est irréversible, la victime devenue barde par les effets de la lyre ne concevant plus d'être autre chose. Seul un sort de souhait peut peut-être rendre à la victime sa mentalité précédente.
+
+PARAMETRES :
+
+Jouer de la lyre change irrémédiablement l'utilisateur en barde.~
+
+@1019 = ~Draguée d'Invocation De La Horde Anti Carottes Mutantes Tueuses de l'Espace.~
+@1020 = ~Draguée d'Invocation De La Horde Anti Carottes Mutantes Tueuses de l'Espace.
+
+Si votre monde est victime de l'envahissement par les terribles Carottes Mutantes Tueuses de l'espace, pas de panique. Il existe ailleurs dans l'univers une race qui est la pire ennemie des Carottes Mutantes Tueuses de l'espace, et cette draguée permet d'en invoquer une horde. S'il y a des  Carottes Mutantes Tueuses de l'espace dans le secteur, la Horde vous en débarrassera.
+
+PARAMETRES :
+
+Croquez cette draguée pour faire apparaître une Horde Anti Carottes Mutantes Tueuses de l'Espace.~
+@10201 = ~Aucune Carotte Mutante Tueuse de l'Espace repérée. Nous rentrons à la maison.~
+
+@1021 = ~Manuscrit de l'inconcevable~
+@1022 = ~Manuscrit de l'inconcevable
+
+Ce que tu as pris pour un livre sans prétention fermé par une petite serrure en laiton est en réalité relié d'un cuir étrange et fermé par du bronze enchanté. Son nom semble être le "Manuscrit de l'inconcevable".~
+@10221 = ~Comment dire ? C'est....indescriptible~
+@10222 = ~C'était... C'est... Je...~
+@10223 = ~C'est...Heu.....Baaaaaahh......~
+@10224 = ~Mais.... Serait-ce.....Rah, non, pas possible !~
+@10225 = ~Woooaahhhhhh!!!!!!~
+@10226 = ~Je sais déjà tout ce qu'il y a savoir sur ce "livre"~
+
+@1023 = ~Flûte de convocation de rat~
+@1024 = ~Flûte de convocation de rat.
+
+Jouer de cette flûte permet 3 fois par jour de convoquer un rat, de taille TP et dépourvu d'agressivité, qui pourra éventuellement faire peur à un éléphant métamorphosé.~
+
+@1025 = ~Besace des merveilles~
+@1026 = ~Cette besace magique s'ouvre sur la grande salle au trésor extra-planaire de Thot-Alem-Ra, d'où l'utilisateur peux extirper une pièce par jour.
+La pièce sortie du sac est toujours tirée du trésor et peut-être n'importe quoi, le trésor étant immensément grand et fantastiquement varié.~
+
+@1027 = ~Anneau de quasi-invisibilité~
+@1028 = ~Cet anneau rend le porteur quasi-invisible. La quasi-invisibilité n'étant pas une invisibilité, le porteur peut entreprendre toute action et rester quasi-invisible. Les êtres doués de vision ne peuvent quasiment pas le voir, et il bénéficie presque d'un bonus à la CA et aux jets de sauvegarde.
+
+PARAMETRES :
+
+Classe d'Armure : quasiment +1
+Jets de sauvegarde contre les baguettes et les souffles : presque +1
+Spécial : peut être porté en même temps qu'un anneau de protection.~
+
+@1029 = ~Bonbon à la Violette~
+@1030 = ~Lorsque ce bonbon est mâché/sucé/croqué, (tant qu'il est dans la bouche), le consommateur est couvert par le sort "Rots chantants de Garlidol". Soirées réussies garantie !~
+
+@1031 = ~Chocolat à la menthe~
+@1032 = ~Après ingestion de ce chocolat, le mangeur est protégé par le sort "Pets fleuris de Garlidol" pendant 2 heures.~
+
+@1033 = ~Sablier du temps universel~
+@1034 = ~Cet artefact rare et puissant est unique au monde car il permet une fois par jour l'arrêt total du temps dans tous les plans et tous les mondes existant sans aucune exception. (les dieux aussi sont affectés). Toutefois, celui qui a activé le Sablier est lui aussi immobilisé par l'arrêt du temps qui durera 1 tour par tour de sablier.
+
+PARAMETRES :
+
+Arrête le temps pour tout le monde, y compris l'utilisateur pendant 1 tour.~
+
+@1035 = ~Bonbon Chiantos~ // Pas encore fait, pas trouvé comment demander permission à POC sans m'inscrire sur un énième forum.
+@1036 = ~Si vous n'avez pas la patate pour balancer des vannes, ou si vous avez le calembour qui faibli, le bonbon Chiantos est fait pour vous. Mâcher cette friandise de conception naine à base de champignons des mines enrichie en poudre de granit vous assurera de n'être jamais à court de méchanceté a dire a vos amis. Vous lancerez même des pics comme un vrai champion !
+
+Les bonbons Chiantos sont une création original du Naheulband, importée dans les Royaumes par Lumens le merveilleux.
+
+PARAMETRES :
+Mâcher le bonbon Chiantos vous permet de vanner, boiter, piquer du soir au matin sans interruption (12 heures).~
+
+@1037 = ~Baguette de sublimation de sandwich~
+@1038 = ~Cette baguette sert à transformer n'importe quel sandwich au jambon-beurre ou aux rillettes de Port-ponant en sandwich Chocolat-moules-anchoix, bien meilleur selon l'avis de Garlidol Petipied, le créateur de la baguette.~
+
+@1039 = ~Anneau d'immortalité~
+@1040 = ~Cet anneau d'or fait parti de la série des "12 anneaux d'immortalité". Cet anneau seul n'a aucun pouvoir, si ce n'est celui d'attirer le regard des voleurs de tous bords, mais s'il est porté en même temps que les 11 autres anneaux qui composent l'ensemble, un à chaque doigt, son porteur devient immortel.~
+
+@1041 = ~Potion de Délivrance de la paralysie~
+@1042 = ~Comme son nom l'indique, cette potion peut délivrer de la paralysie celui qui la boit.~

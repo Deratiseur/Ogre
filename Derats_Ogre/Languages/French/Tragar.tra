@@ -1,0 +1,122 @@
+@1 = ~Pas taper ! Tragar gentil !~
+@11 = ~Tiens donc. Et pourquoi devrais-je t'épargner, saleté d'ogre ?~ //2
+@12 = ~Un ogre gentil ? On aura tout vu.~ //2
+@13 = ~Qu'est ce que c'est que cet ogre BLEU ?~ //2
+
+@2 = ~Tragar pas ogre. Tragar nain. Tragar besoin aide.~
+@21 = ~Tu dis être un nain ?  Non, tu es un ogre. Que t'est-il arrivé, Tragar ?~ //10
+@22 = ~Tragar nain ? Qu'est ce que c'est que cette histoire ? Te fiche pas de moi, l'ogre.~ //3
+@23 = ~Tu as besoin d'aide ? Va donc retrouver ta tribu.~ //6
+@24 = ~J'ai pas le temps d’écouter les jérémiades d'un ogre puant. *S'en aller*~  //-->202
+
+@3 = ~Tragar pas mentir. Tragar vraiment nain. Tragar boire potion, devenir ogre bleu, mais Tragar toujours nain dans tête.~
+@31 = ~Potion ? J'ai vraiment l'impression que tu te paie ma tête, et ça ne me plaît pas beaucoup.~ //7
+@32 = ~Tu as bu une potion et tu es devenu un ogre bleu ?~ //4
+@33 = ~C'est ça, et moi je suis le roi du Cormyr !~ //7
+
+@4 = ~Oui ça ! Tragar boire potion, Tragar devenir ogre bleu. Tragar plus nain. Vous aider Tragar ?~
+@41 = ~Je vois. Et bien, c'est d'accord. Viens avec nous, on va t'aider.~ //9
+@42 = ~Je ne sais pas. Ton histoire ne me paraît pas claire. Une potion qui transformerait en ogre bleu ? Jamais entendu parler.~ //5
+@43 = ~Tragar me prendre pour un imbécile, et Tragar va le regretter.~ //8
+
+@5 = ~Ça vrai ! Tragar boire potion, devenir ogre bleu. Potion marchand gnome !~
+@51 = ~La potion viendrait d'un marchand gnome ? Vu l’extravagance qui les caractérise, ça expliquerait bien des choses. Bon, c'est d'accord. Viens avec nous, on va t'aider.~ //9
+@52 = ~Mouais... Ça me parait quand même bizarre. Je vais peut-être chercher ce marchand gnome, mais toi tu restes là.*S'en aller*~ //-->205 JOURNAL 40
+
+@6 = ~Vous méchants. Tragar pas besoin vous. Allez !~
+@61 = ~Bien dit. Adieu l'ogre. *S'en aller*~ //-->204 JOURNAL 401
+@62 = ~Attend, je plaisantais. Que t'est-il arrivé ?~ //10
+@63 = ~Personne ne me parle comme ça, et encore moins une saleté d'ogre. En garde !~ //8
+
+@7 = ~Ça vrai ! Vous méchants. Vous partir. Tragar pas besoin vous.~
+@71 = ~T'as raison. Adieu l'ogre. *S'en aller*~ //-->204 JOURNAL 401
+@72 = ~Ho non, pas si vite. Un ogre qui traîne en ville, ça doit valoir son pesant d'or pour les autorités de la ville.~ //8
+
+@8 = ~Vous chercher bagarre ? Tragar gentil, pas vouloir bagarre.
+//  Intervention de Keldorn interdisant de l'attaquer~
+@81 = ~*Attaquer*~ //JOURNAL 402
+@82 = ~*S'en aller*~ //-->204 JOURNAL 401
+
+@9 = ~D'accord, si vous promettre protéger moi milice~
+@91 = ~Contre la milice ? Ça n’était pas prévu ça. Non merci, nous ne voulons pas avoir la ville à dos. Attend plutôt ici, nous allons chercher ce marchand et nous reviendrons te voir.~ //11 JOURNAL 40
+@92 = ~Ne t'en fait pas, tant que tu seras avec nous, nous serons garants de ton libre passage.~ // JOINT JOURNAL 40
+
+@10 = ~Marchand gnome vendre bonne potion force. Tragar acheter potion, boire potion, Tragar devenir ogre, bleu.~
+@101 = ~C'est la potion vendue par un marchand gnome qui t'aurait mis dans cet état ? Vu l’extravagance qui caractérise les gnomes, ça expliquerait par mal de choses. Bon, c'est d'accord. Viens avec nous, on va t'aider.~ //9
+@102 = ~Je vois. Dis nous où est ce marchand, nous allons aller le voir~ //201
+
+@201 = ~D'accord. Marchand être place marchands. Tragar attendre.~  //205 JOURNAL 40
+
+@202 = ~Vous revenir. Quoi vouloir ?~
+@2021 = ~J'ai réfléchi, et ton histoire m'intrigue. Veux-tu 'en dires plus ?~ //203
+@2022 = ~Je me suis dis que la tête d'un ogre qui traîne en ville voudrait chère auprès des autorités.~ //8
+
+@203 =  ~Tragar trouver bonne potion force. Tragar boire potion. Tragar devenir ogre bleu. Tragar plus nain. ~
+//= 31 =
+//= 32 =
+//= 33 =
+
+@204 =  ~Vous partir. Tragar pas aimer vous. ~ // EXIT JOURNAL 401
+
+@205 =  ~Vous revenir. Avoir trouvé ? ~
+@2051 =  ~Nous avons une potion qui devrait te rendre ta forme normal, Tragar~ //30
+@2052 =  ~Oui. Nous avons parlé au marchand, il nous a donné une liste d’ingrédients pour concocter une potion pour te guérir~ //207
+@2053 =  ~Non, pas encore. Nous venions juste voir si tu étais encore là.~ //206
+
+@206 =  ~Tragar pas bouger. Tragar attendre.~ // EXIT
+
+@207 =  ~Ça bien. Tragar peux aider vous si vouloir.~
+@2071 =  ~Non merci. Nous étions juste venu te tenir au courant; nous n’avons pas besoin de toi. Attend ici, nous reviendrons.~ //206
+@2072 =  ~Nous sommes venus pour ça. Vient avec nous, Tragar.~ //208
+
+//208  = 9 =
+@2081 = ~Contre la milice ? Ça n’était pas prévu ça. Non merci, nous ne voulons pas avoir la ville à dos. Attend plutôt ici, nous reviendrons.~ //206 JOURNAL 40
+//= 92 = JOURNAL 40
+
+@30 =  ~Ça bien. Tragar boire ça maintenant~ // JOURNAL 404
+@301 = ~Ça a marché ! Je ne vous remercierais jamais assez, mes amis. Mais...... Oups ! Je suis toujours bleu !~
+@3011 = ~Aille ! Il va falloir retourner voir le marchand.~ //304
+@3012 = ~Je vous conseille de retourner voir le marchand pour vous plaindre vous même, car il ne nous croira sûrement pas. Pour lui, tous les clients sont des "éternel insatisfaits"~ //302// Seulement si Lumens dialogue 10 ou 204 S_JOURNAL 407
+@3013 = ~C'est malheureux, mais c'est comme ça. Il va falloir vous y faire.~ //303
+@3014 = ~Vous parlez normalement maintenant ?~ //3010
+
+@302 = ~Ça c'est la tuile. Mais j'ai attendu suffisamment longtemps. Je suis venu en ville pour un travail, j’espère qu'il n'est pas trop tard pour le réaliser. J'ai retrouvé ma forme, ma couleur devra attendre. Le retour au clan va être festif, ça c'est sur. Merci encore, mes amis. Peut-être à un de ses jours.~ // FIN S_JOURNAL 407
+
+@303 = ~Hum.... c'est surprenant que vous le preniez comme ça après que vous ayant consacré du temps à m'aider. Mais je comprend. Peut-être était-ce trop de temps. Qu'à cela se tienne; je vous remercie pour ce que vous avez fait, et je vais résoudre ce dernier problème tout seul. Merci encore, mes amis. Adieu.~ // FIN S_JOURNAL 407
+
+@304 = ~Si c'est possible, oui, et je vous en remercie. Mais cette fois-ci je ne vous laisserais pas y aller seul. Je suis peut être bleu, mais je suis redevenu un nain. Je dois donc pouvoir me promener en ville sans avoir trop de problèmes (regards curieux et rires moqueurs exceptés, bien sur).~ 
+@3041 = ~Si vous vouez vous joindre à nous, vous êtes le bienvenu.~  //JOINT U_JOURNAL 406
+@3042 = ~En fait nous sommes déjà trop nombreux. Convenons plutôt d'un coin où vous serez plus à l'aise pour nous attendre.~ //305
+
+@305 = ~Mes amis, il ne sera pas dit que je resterais encore assis quelque part à attendre. Je suis venu en ville pour un travail, et je compte bien l'accomplir s'il est encore temps. Je vous remercie de ce que vous avez fait pour moi, et pour le rester, je vais me débrouiller. Merci encore.~ // FIN S_ JOURNAL 405
+
+@306 = ~Monsieur, comme vous pouvez le voir, je suis toujours bleu, et ceci par la votre de votre potion de force permanente. J’apprécierais donc vraiment que vous trouviez une solution, efficace cette fois ci, pour me rendre ma couleur naturelle.~
+//Externalisation Lumens 401
+
+@307 = ~On se calme. Je vais prendre le sort. J'ai un travail à faire en ville, et je n'ai que trop tardé. Je n'ai pas le temps d'attendre une autre solution calamiteuse, alors je vais finir ce que j'ai à faire comme ça, et je réglerais le cas de ma couleur en retournant au clan. Il vont m'accueillir avec le sourire, ça c'est sur.~ //QUIT S_JOURNAL 408
+
+@308 = ~Hola ! Je crois que tout le monde devrait se calmer. Je n'ai de toute façon pas le temps de chercher un mage puissant, j'ai un travail à faire ici. Tant pis, je vais prendre le sort et faire ce que j'ai à faire; je chercherais une solution efficace quand je rentrerais chez moi. C'est sur, il vont m’accueillir avec le sourire, au clan.~ //QUIT S_JOURNAL 408
+
+@309 = ~Hum.... En fait j'ai un travail à faire en ville, et après avoir attendu si longtemps je n'ai plus le temps de chercher un mage compétent. Tant pis, je vais prendre ce petit sort, et je verrais ce que je peux en faire de retour au clan. C'est sur ils vont bien rigoler en m’accueillant. Merci encore mes mais, bonne chance pour la suite.~ //QUIT S_JOURNAL 409
+
+@3010 = ~Ha oui tient ! Ça fait du bien, d’ailleurs. Coincé dans ma forme d'ogre, j'avais du mal à formuler des phrases complexes. J'ai trouvé comment m'exprimer en revenant à l'essentiel, mais ce n’était pas fameux. Ha bla, Ha bla, ça marche. Tant mieux. Continuons.~
+@30101 = ~D'accord. Nous allons retourner vois le marchand.~ //304 U_JOURNAL 406
+//= 3012 =
+@30103 = ~C'est bien. Maintenant nous pouvons vous laisser.~ //303 S_JOURNAL 407
+
+@40 = ~Rencontre avec un ogre bleu
+Dans le cimetière d'AthKatla j'ai rencontré un ogre... bleu... qui se cachait de la population. Il m'a raconté être en fait un nain métamorphosé, et j'ai décidé de l'aider à retrouver sa forme normale.~
+@401 = ~Rencontre avec un ogre bleu
+Dans le cimetière d'AthKatla j'ai rencontré un ogre... bleu... qui se cachait de la population. Il m'a raconté être en fait un nain métamorphosé, ce que je n'ai pas cru.~
+@402 = ~Rencontre avec un ogre bleu
+Dans le cimetière d'AthKatla j'ai rencontré un ogre... bleu... qui se cachait de la population. Il m'a raconté être en fait un nain métamorphosé, mais je ne l'ai pas cru et je l'ai tué.~
+@405 = ~Rencontre avec un ogre bleu
+La potion à rendu à  l'ogre Tragar sa forme de nain, mais il est toujours bleu. J'ai proposé de l'aider mais il a refusé de rester seul, et comme je n'ai pas voulu le recruter, il est parti.~
+@406 = ~Rencontre avec un ogre bleu
+La potion à rendu à  l'ogre Tragar sa forme de nain, mais il est toujours bleu. Il nous faut reparler à Lumens pour corriger encore sa couleur.~
+@407 = ~Rencontre avec un ogre bleu
+La potion à rendu à  l'ogre Tragar sa forme de nain, mais il est toujours bleu. Qu'importe, cela ne nous regardait plus.~
+@408 = ~Rencontre avec un ogre bleu
+Nous avons reparlé à Lumens de l'état de Tarngarn. La discussion s'est finie en queue de poisson, Tarngarn voulant éviter toute violence.~
+@409 = ~Rencontre avec un ogre bleu
+Nous avons reparlé à Lumens de l'état de Tarngarn. La discussion s'est finie en queue de poisson, Tarngarn n'ayant pas la patience d'attendre une autre solution théorique.~

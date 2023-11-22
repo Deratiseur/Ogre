@@ -1,0 +1,238 @@
+@2011 = ~Pets fleuris de Garlidol~
+@2012 = ~Pets fleuris de Garlidol (Olfaction)
+Niveau : 1
+Portée : 0
+Durée : 1 round / niveau
+Temps d'incantation : 2
+Zone d'effet : lanceur
+Jet de sauvegarde : aucun
+
+Ce sort transforme les odeurs de flatulence du mage en délicieuses effluves fleuries. En lançant le sort il est possible de choisir la fleur qui sera imitée à chaque pet du mage, et l'odeur est aléatoire (mais reste agréable) si rien n'est précisé.~
+
+@2013 = ~Rots chantants de Garlidol~
+@2014 = ~Rots chantants de Garlidol (Digestion)
+Niveau : 1
+Portée : 0
+Durée : 1 round / niveau
+Temps d'incantation : 2
+Zone d'effet : lanceur
+Jet de sauvegarde : aucun
+
+Ce sort transforme les éructation du mage en agréable chant d'oiseau. Ainsi, à chaque rot émit, le mage gazouillera comme un pinson au petit matin. Soirées réussies garanties !~
+
+@2015 = ~Runes Invisibles~
+@2016 = ~Runes Invisibles (Circonspection)
+Niveau : 1
+Portée : 0
+Durée : permanente
+Temps d'incantation : 5
+Zone d'effet : 5 runes / niveau
+Jet de sauvegarde : aucun
+
+Ce sort permet d'inscrire des runes absolument indétectables par toutes formes d'examens, magiques ou non magiques (y compris ceux dont disposent le lanceur lui-même). Ces runes n'ont pas d'autre pouvoir.~
+@20161 = ~Inscrivez~
+
+@2017 = ~Remémoration rapide de Bertèle~
+@2018 = ~Remémoration rapide de Bertèle (Répétition)
+Niveau : 1
+Portée : 0
+Durée : instantanée
+Temps d'incantation : 1 
+Zone d'effet : lanceur
+Jet de sauvegarde : aucun
+
+Ce sort permet au mage de rappeler dans sa mémoire un sort de niveau un .~
+
+@2021 = ~Invisibilité pour les objets inanimés~
+@2022 = ~Invisibilité pour les objets inanimés (Dissimulation)
+Niveau : 2
+Portée : 30 mètres
+Durée : 1 round  niveau
+Temps d'incantation : 2
+Zone d'effet : 1 créature
+Jet de sauvegarde : aucun
+
+Ce sort rend la cible du sort totalement invisible pour les objets inanimés. Comme pour le sort Invisibilité majeure, le bénéficiaire du sort peut entreprendre n'importe quelle action, y compris de nature offensive, sans redevenir visible pour les objets inanimés; ces derniers ne peuvent ni le voir ni le détecter en aucune façon tant qu'il est couvert par le sort.~
+@20221 = ~Invisible pour les objets inanimés~
+
+@2023 = ~Anti-transformateur en poule~
+@2024 = ~Anti-transformateur en poule (Normalisation)
+Niveau : 2
+Portée : 0
+Durée : instantanée
+Temps d'incantation : 2
+Zone d'effet : lanceur
+Jet de sauvegarde : aucun
+
+Ce sort permet au mage malencontreusement transformé en poule de retrouver sa forme originelle. Conçu par un apprenti peu doué du nom de Mélican, (du moins c'est ce que prétant la version officielle) le sort n'est pas parfait et nécessite un peu de chance pour être utile.
+Premièrement, il faut être capable de lancer le sort sous la forme de poule. Deuxièmement, il faut réussir un jet de sauvegarde contre la métamorphose pour retrouver la forme originelle, sans quoi le sort pulvérise le mage. A utiliser avec prudence, donc.
+Note : ce sort est destiné à aider un mage transformé en poule. Personne ne ne connaît l'effet qu'il produit s'il est lancé par un mage non-transformé, Mélican n'ayant pas jugé utile de le tester sous sa forme humaine.~
+
+@2031 = ~Aide-pastèque~
+@2032 = ~Aide-pastèque (Transportation)
+Niveau : 3
+Portée : contact
+Durée : 8 heures
+Temps d'incantation : 3
+Zone d'effet : 1 créature
+Jet de sauvegarde : aucun
+
+Le sort à pour but d'aider la cible à porter plus de pastèques. Le sort ne modifie en rien le poids ou la taille des pastèques transportées par la cible, mais l'aide effectivement à en porter plus.
+Le nombre de pastèques pouvant être portées en plus dépend de la classe du personnage enchanté 
+Barbare  +1D8 pastèques
+Guerrier / paladin / rôdeur  +1D6 pastèques
+Moine / Prêtre  +1D4+1 pastèques
+Barde / voleur  +1D4 pastèques
+Mage / sorcier  +1D2 pastèques~
+
+@2033 = ~Aura contre les Assiettes~
+@2034 = ~Aura contre les Assiettes (Protection)
+Niveau : 3
+Portée : 0
+Durée : 2 rounds / niveau
+Temps d'incantation : 3
+Zone d'effet : 1 mètre autour du lanceur
+Jet de sauvegarde : aucun
+
+Le mage s'entoure d'une aura qui le protège des assiettes lancées contre lui. Tant que dure le sort, toute assiette en mouvement pénétrant dans le périmètre d'un mètre autour du mage est aussitôt transformée en crêpe au sucre.
+Le sort n'arrête pas la course de la crêpe, bien que celle ci soit altérée par le poids et la forme changés du projectile.
+Le sort ne cible que les assiettes (de toute taille, matière ou poids) et ne transforme pas les verres, cruche, chaudron,  bref tout ce qui est lancé lors de rixe ou dispute conjugale.~
+
+@2035 = ~Convocation impérieuse de pantoufles~
+@2036 = ~Convocation impérieuse de pantoufles (Confortation)
+Niveau : 3
+Portée : spéciale
+Durée : instantanée
+Temps d'incantation : 3
+Zone d'effet : lanceur
+Jet de sauvegarde : aucun
+
+Ce sort fait apparaître aux pieds du lanceur ses chaussons préférés, afin qu'il puisse passer une soirée à l'aise dans ses pantoufles.
+Le sort est infaillible, ira chercher les pantoufles où qu'elles soient, même si elles sont sous sellé ou dans un poche dimensionnelle.
+Elle apparaîtront chaussées aux pieds du mage, remplaçant s'il y lieu d'autres chaussures, et resterons là jusqu'à ce que le mage décide de se déchausser.~
+@20361 = ~Pantoufles de vair.~
+@20362 = ~Ce sont vos pantoufles. Elles sont très confortables.~
+
+@2041 = ~Caméléon~
+@2042 = ~Caméléon (Coloration)
+Niveau : 4
+Portée : 0
+Durée : 1 round / niveau
+Temps d'incantation : 4
+Zone d'effet : lanceur
+Jet de sauvegarde : aucun
+
+Sous l'effet de ce sort le lanceur du sort peux changer à volonté sa couleur de peau et de pilosité. Il n'y a pas de limite au nombre de changements qu'il peut effectuer pendant la durée du sort.~
+@20421 = ~Pour changer les couleurs du lanceur de sort, rentrez dans ses archives, cliquez sur le bouton "personnaliser" puis sur le bouton "couleurs", et changez ses couleurs selon votre envie. Vous pouvez le refaire à volonté, et la bonne nouvelle c'est que vous pourrez même le refaire après la fin du sort.~
+
+@2051 = ~Mur fantasmagorique~
+@2052 = ~Mur fantasmagorique (ImaginationDissimulation)
+Niveau : 5 
+Portée : -
+Durée : spéciale
+Temps d'incantation : 1 round 
+Zone d'effet : spéciale
+Jet de sauvegarde : aucun
+
+Ce sort permet de crée un mur invisible, indétectable et impalpable, d'un taille et d'une importance déterminée par le lanceur, dont la surface maximale est d'environ 25m² par niveau de lanceur, et l'épaisseur maximale de 20 cm par niveau de lanceur pour un mage d'aptitude moyenne,  plus pour un mage d'une grande faculté de conception.
+Un magicien doté d'une puissante faculté de conception peut ainsi créer un château entier. Il est même possible d'aménager des passages secrets dans les murs.~
+@20521 = ~Créez !~
+
+@2053 = ~Transformation de la roche en pierre~
+@2054 = ~Transformation de la roche en pierre (Reformulation)
+Niveau : 5
+Portée : 30 mètres
+Durée : permanent
+Temps d'incantation : 6
+Zone d'effet : 2m3 / niveau
+Jet de sauvegarde : annule
+
+Ce sort transforme la roche à l'état naturel (c'est-à-dire non travaillée) en quantité égale de pierre non-magique. La roche prise pour cible a droit à un jet de sauvegarde si elle est intègre, aucun si elle est fendue ou altérée naturellement de quelques sorte que ce soit. Si la roche rate ou ne fait pas de jet de sauvegarde, elle est irrémédiablement changée en pierre.~
+
+@2061 = ~Voyage temporel~
+@2062 = ~Voyage temporel (Claustration)
+Niveau : 6
+Portée : -
+Durée : instantanée
+Temps d'incantation : 1 heure
+Zone d'effet : lanceur
+Jet de sauvegarde : aucun
+
+Ce sort permet de voyager dans le futur. Pour le lancer, le mage doit disposer d'un laboratoire équipé d'un placard. Il doit se cloîtrer dans ce placard pendant toute la durée de l'incantation (1 heure).
+En sortant dudit placard, il se trouvera projeté dans le futur, une heure environ après le début de l'incantation.
+Ce sort n'est pas réversible et ne permet donc pas de voyager dans le passé.~
+@20621 = ~*Incantation annulée* Oups, je ne suis pas dans un placard de mon laboratoire.~
+
+@2063 = ~Résurrection personnelle~
+@2064 = ~Résurrection personnelle (Réanimation)
+Niveau : 6
+Portée : 0
+Durée : instantanée
+Temps d'incantation : 8
+Zone d'effet : lanceur
+Jet de sauvegarde : aucun
+
+Vous êtes mort  Aucun problème. Lancez ce sort et vous ressusciterez, en pleine possession de vos moyens et prêt  reprendre le combat, avec en mémoire les sorts que vous aviez au moment de votre mort. Chaque résurrection personnelle vous coûte cependant 2 points de vie qui sont perdus définitivement.
+Ce sort ne peut affecter qu'une personne vraiment morte, ce qui exclu les morts-vivants. Il ne peut pas non plus affecter un mage qui à dépassé son espérance de vie (mort de vieillesse).~
+@20641 = ~Malheureux !! Ce sort était devait être lancé par un mort pour le ramener à la vie. Un vivant qui le lance provoque l'effet opposé, c'est logique !~
+
+@2071 = ~Invocation de limon de ménage~ // Impossible à faire, paramètre "seulement en intérieur" inexistant.
+@2072 = ~Invocation de limon de ménage (Décrassation)
+Niveau : 7
+Portée : Champ visuel du lanceur
+Durée : 1 jour / niveau
+Temps d'incantation : 6
+Zone d'effet : spéciale
+Jet de sauvegarde : aucun
+
+Ce sort invoque un Limon de ménage, créature amorphe qui se chargera de débarrasser tout lieu clôt de la saleté qui y règne. Le limon est crassovore, il ingère et désintègre la poussière, les saletés et les détritus. Il ne combat pas, et s'il doit le faire, il se contentera de lancer des jets de savons bactéricides sur ses attaquants pour les laver s'il les trouve sales.
+
+Ce sort ne peux être lancé qu'en intérieur; le limon de ménage ne supportant pas la lumière du jour, il fond en 1D4 rounds s'il y est exposé (il peut néanmoins supporter de passer devant une fenêtre, s'il n'y stationne pas)
+
+Attention, quelques ragots incertains rapportent qu'un limon de ménage peu regardant aurait nettoyé entièrement la grande bibliothèque de Kalieshira, ne laissant qu'une tour vide en guide de bâtiment nettoyé.~
+
+@20111 = ~Super héroïsme~
+@20112 = ~Super héroïsme (Évolution)
+Niveau : 11
+Portée : 0
+Durée : permanente
+Temps d'incantation : 5 rounds
+Zone d'effet : lanceur
+Jet de sauvegarde : aucun
+
+Au terme de l'incantation, le mage gagne définitivement le super pouvoir d'accélération. La puissance du sort donne une  accélération exceptionnelle, supérieure à la vitesse de la lumière. La mage doté d'un tel pouvoir ne peut même plus être suivi par les dieu; il n'est alors plus jouet du destin. Il est au delà.~
+@201121 = ~La magie du sort a fonctionné et a fait de vous un surhomme. Vous vivez à présent en accéléré. Si le temps vous semble s'être arrêté, ce n'est qu'une illusion d'optique : pour le reste du multivers il faudra 1000 ans pour effectuer ce que vous pouvez maintenant faire en 1 seconde; c'est cela qui fait apparaître le monde comme figé. Vous voyez également le monde sans couleurs, car vous allez aussi plus vite que les photons qui composent la lumière.~
+
+@20113 = ~Téléportation suprême~
+@20114 = ~Téléportation suprême (Translation)
+Niveau : 11
+Portée : -
+Durée : permanente
+Temps d'incantation : 5 rounds
+Zone d'effet : infinie
+Jet de sauvegarde : aucun
+
+Pour lancer ce sort, le magicien doit impérativement être placé dans l'univers. S'il n'y est pas, il ne peut lancer le sort.
+Si l'univers est à portée, le mage qui lance le sort se trouve instantanément téléporté de mille années-lumière vers la gauche, avec ses vêtements, son équipement, ceux qui se trouvent à ses cotés, le sol sur lequel il pose les pieds, et pour résumer, tout ce qui l'entoure (planète, système solaire, galaxie, multivers). Comme TOUT s'est déplacé en même temps, un observateur non prévenu pourrait croire qu'il ne s'est rien passé. Ce sortilège est donc peut spectaculaire, bien qu'il mette en jeu des forces cosmiques.~
+
+@20115 = ~Changement de dimension~
+@20116 = ~Changement de dimension (Conversion)
+Niveau : 11
+Portée : 0
+Durée : permanente
+Temps d'incantation : 5 rounds
+Zone d'effet : lanceur
+Jet de sauvegarde : aucun
+
+Ce sort fait changer de dimension le lanceur. Plus qu'un changement de plan, c'est la structure de l'univers que le lanceur parcoure qui change. Il passe de la dimension 2D à la dimension 3D. C'est un changement fondamental procurant une nouvelle vision des choses ainsi qu'un changement presque complet des règles connues qui s'offre au mage lançant ce sort. Il ne peut qu'en ressortir grandi.~
+@201161 = ~Vous pouvez maintenant quitter BG2 et recréer votre personnage sur Neverwinter nights 1 ou 2 pour profiter d'un nouvel univers en 3D, d'une vision différente et des règles améliorées de Donjon et dragon édition 3.5.~
+
+
+
+
+
+//Sort de contrôle mental qui permet de prendre le contrôle d'un membre du groupe consentant (ne sert donc à rien sur BG2)
+
+//Sort de niveau 5 qui permet de prendre le contrôle d'un ogre s'il rate un jet de sauvegarde contre les sort (marche sur ogres, ogres mages et ogrillons (IDS class) mais pas sur les demi-ogres)
+
+//Sort qui donne le pouvoir de s'éclipser comme la "bête éclipsante" dès qu’un coup est reçu (effet ételeport field, donc au hasard, sur 10 mètres, donc chiant)
