@@ -1,0 +1,243 @@
+BACKUP ~Derats_Ogre/Backup~
+AUTHOR ~Deratiseur, at the_deratiseur@hotmail.com~
+VERSION ~Version 4~
+
+ALWAYS
+	ACTION_IF GAME_IS ~IWDEE BG2EE EET~ THEN BEGIN
+		ACTION_DEFINE_ARRAY px_reload BEGIN
+		~setup.tra~
+		~magasin-sorts.tra~
+		~magasin-objets.tra~
+		~besace.tra~
+		END
+		ACTION_DEFINE_ARRAY px_noconvert BEGIN END
+			LAF HANDLE_CHARSETS
+			INT_VAR
+			infer_charset = 1
+			STR_VAR
+			tra_path = EVAL ~%MOD_FOLDER%/Languages~
+			noconvert_array = px_noconvert
+			reload_array = px_reload
+		END
+	END
+END
+
+AUTO_TRA ~Derats_Ogre/Languages/%s~ //%s~
+
+LANGUAGE ~Francais~	~French~
+	~Derats_Ogre/Languages/French/Setup.tra~
+	~Derats_Ogre/Languages/French/Magasin-sorts.tra~
+	~Derats_Ogre/Languages/French/Magasin-objets.tra~
+	~Derats_Ogre/Languages/French/Besace.tra~
+	
+LANGUAGE ~English~	~English~
+	~Derats_Ogre/Languages/English/Setup.tra~
+	~Derats_Ogre/Languages/English/Magasin-sorts.tra~
+	~Derats_Ogre/Languages/English/Magasin-objets.tra~
+	~Derats_Ogre/Languages/English/Besace.tra~
+	
+LANGUAGE ~Russian~	~Russian~
+	~Derats_Ogre/Languages/Russian/Setup.tra~
+	~Derats_Ogre/Languages/Russian/Magasin-sorts.tra~
+	~Derats_Ogre/Languages/Russian/Magasin-objets.tra~
+	~Derats_Ogre/Languages/Russian/Besace.tra~
+
+BEGIN @0
+
+COPY	~Derats_Ogre/Bams/Quete~				~override~
+		~Derats_Ogre/Bams/Besace~				~override~
+		~Derats_Ogre/Bams/Objets~				~override~
+		~Derats_Ogre/Bams/Sorts~				~override~
+		~Derats_Ogre/Copy~						~override~
+
+//////////CREATURE DE LA QUETE//////////
+
+COPY	~Derats_Ogre/Cres/pxotrag.cre~			~override~	SAY NAME1 @1	SAY NAME2 @1
+COPY	~Derats_Ogre/items/Quete/pxotempe.itm~	~override~	SAY NAME2 @19	SAY DESC @20
+ADD_PROJECTILE ~Derats_Ogre/items/Quete/pxw3chai.pro~
+COPY	~Derats_Ogre/items/Quete/pxotemp1.spl~	~override~	WRITE_SHORT 0x98 ~%pxw3chai%~
+COPY_EXISTING	~pxotemp1.spl~		~override/pxotemp2.spl~	SAY NAME1 #3804	WRITE_SHORT 0x98 23
+COPY	~Derats_Ogre/Cres/pxolume.cre~			~override~	SAY NAME1 @2	SAY NAME2 @2
+COPY	~Derats_Ogre/Store/pxolumen.sto~		~override~	SAY 0xc @15
+COPY_EXISTING	~pxolumen.sto~		~override/pxolume1.sto~	WRITE_BYTE 0x14 165
+COPY_EXISTING	~Rat.cre~						~override~	ADD_CRE_ITEM ~pxorat~ #0 #0 #0 ~identified~ ~inv2~
+COPY_EXISTING	~Rabbit01.cre~					~override~	ADD_CRE_ITEM ~pxolapin~ #0 #0 #0 ~identified~ ~inv2~
+
+//////////OBJETS DE LA QUETE//////////
+
+COPY	~Derats_Ogre/items/Quete/pxoliste.itm~	~override~	SAY NAME2 @3	SAY DESC @4
+COPY	~Derats_Ogre/items/Quete/pxorat.itm~	~override~	SAY NAME2 @5	SAY DESC @6
+COPY	~Derats_Ogre/items/Quete/pxolapin.itm~	~override~	SAY NAME2 @7	SAY DESC @8
+COPY	~Derats_Ogre/items/Quete/pxolotus.itm~	~override~	SAY NAME2 @9	SAY DESC @10
+COPY	~Derats_Ogre/items/Quete/pxopoudr.itm~	~override~	SAY NAME2 @11	SAY DESC @12
+COPY	~Derats_Ogre/items/Quete/pxofrom1.itm~	~override~	SAY NAME2 @13	SAY DESC @14
+COPY	~Derats_Ogre/items/Quete/pxopotio.itm~	~override~	SAY NAME2 @17	SAY DESC @18	SAY 0x25e @16
+
+//////////MANIPULATIONS DIVERSES POUR LA QUETE//////////
+
+EXTEND_TOP "ar0800.bcs" "Derats_Ogre/Scripts/Zones/pxo0800.baf"
+EXTEND_TOP "ar0700.bcs" "Derats_Ogre/Scripts/Zones/pxo0700.baf"
+
+COPY_EXISTING ~AR0406.are~						~override~
+PATCH_IF SOURCE_SIZE > 0x28f BEGIN
+	LAUNCH_PATCH_FUNCTION ADD_AREA_ITEM	INT_VAR container_to_add_to = 14	STR_VAR item_to_add = pxofrom1	END
+	LAUNCH_PATCH_FUNCTION ADD_AREA_ITEM	INT_VAR container_to_add_to = 6	STR_VAR item_to_add = pxolotus	END
+END
+COPY_EXISTING ~AR0509.are~						~override~
+PATCH_IF SOURCE_SIZE > 0x28f BEGIN
+	LAUNCH_PATCH_FUNCTION ADD_AREA_ITEM	INT_VAR container_to_add_to = 6	STR_VAR item_to_add = pxofrom1	END
+END
+
+COPY_EXISTING ~trmer02.sto~						~override~	ADD_STORE_ITEM ~pxopoudr~ AFTER  ~shld28~ #1 #0 #0 ~IDENTIFIED~ #1
+
+//////////DIALOGUES ET SCRIPTS//////////
+
+COMPILE ~Derats_Ogre/Dialog~
+COMPILE ~Derats_Ogre/Scripts~
+ADD_JOURNAL @501 @502 USING ~Derats_Ogre/Languages/%LANGUAGE%/Lumens.tra~
+
+//////////OBJETS DU MAGASIN//////////
+
+COPY	~Derats_Ogre/items/Objets/pxlchope.itm~	~override~	SAY NAME2 @101	SAY DESC @102
+COPY	~Derats_Ogre/items/Objets/pxlglivr.itm~	~override~	SAY NAME2 @103	SAY DESC @104
+COPY_EXISTING	~pxlglivr.itm~		~override/pxlgprec.itm~	SAY NAME2 @105	SAY DESC @106	WRITE_ASCII 0x3a ~pxlgprec~ #8	WRITE_SHORT 0x34 2500
+COPY	~Derats_Ogre/items/Objets/pxldetec.itm~	~override~	SAY NAME2 @107	SAY DESC @108	SAY 0xae @1082
+COPY	~Derats_Ogre/items/Objets/pxlcarap.itm~	~override~	SAY NAME2 @109	SAY DESC @1010
+COPY	~Derats_Ogre/items/Objets/pxlflech.itm~	~override~	SAY NAME2 @1011	SAY DESC @1012
+COPY	~Derats_Ogre/items/Objets/pxlpotio.itm~	~override~	SAY NAME2 @1015	SAY DESC @1016
+COPY	~Derats_Ogre/items/Objets/pxllyre.itm~	~override~	SAY NAME2 @1017	SAY DESC @1018
+COPY_EXISTING	~amcall.vvc~		~override/pxllyrev.vvc~	WRITE_ASCII 0x8 ~pxllyre1~ #8	WRITE_ASCII 0x78 ~pxllyre~ #8	WRITE_BYTE 0x28 3	WRITE_BYTE 0x34 33	WRITE_BYTE 0x4c 15
+COPY	~Derats_Ogre/items/Objets/pxldragu.itm~	~override~	SAY NAME2 @1019	SAY DESC @1020
+COPY_EXISTING	~sumsunn.eff~		~override/pxllapin.eff~	WRITE_ASCII 0x30 ~pxllapin~ #8
+COPY_EXISTING	~sumsunn.eff~		~override/pxllap1.eff~	WRITE_ASCII 0x30 ~pxllap1~ #8
+COPY_EXISTING	~Rabbitsu.cre~		~override/pxllapin.cre~	WRITE_BYTE 0x270 4	WRITE_BYTE 0x275 4
+COPY_EXISTING	~pxllapin.cre~		~override/pxllap1.cre~	WRITE_ASCII 0x248 ~pxllap1~ #8
+COPY	~Derats_Ogre/items/Objets/pxlmanus.itm~	~override~	SAY NAME2 @1021	SAY DESC @1022
+COPY	~Derats_Ogre/Spells/pxlmanus.spl~		~override~	SAY 0x12e @10221	SAY 0x15e @10222	SAY 0x18e @10223	SAY 0x1be @10224	SAY 0x1ee @10225	SAY 0x21e @10226
+COPY	~Derats_Ogre/items/Objets/pxlflute.itm~	~override~	SAY NAME2 @1023	SAY DESC @1024
+COPY	~Derats_Ogre/items/Objets/pxlbesac.itm~	~override~	SAY NAME2 @1025	SAY DESC @1026
+COPY	~Derats_Ogre/items/Objets/pxlannea.itm~	~override~	SAY NAME2 @1027	SAY DESC @1028
+COPY	~Derats_Ogre/items/Objets/pxlbonbo.itm~	~override~	SAY NAME2 @1029	SAY DESC @1030
+COPY	~Derats_Ogre/items/Objets/pxlchoco.itm~	~override~	SAY NAME2 @1031	SAY DESC @1032
+COPY	~Derats_Ogre/items/Objets/pxlsabli.itm~	~override~	SAY NAME2 @1033	SAY DESC @1034
+COPY	~Derats_Ogre/items/Objets/pxlbague.itm~	~override~	SAY NAME2 @1037	SAY DESC @1038
+COPY	~Derats_Ogre/items/Objets/pxlimmor.itm~	~override~	SAY NAME2 @1039	SAY DESC @1040
+COPY	~Derats_Ogre/items/Objets/pxlpoti2.itm~	~override~	SAY NAME2 @1041	SAY DESC @1042
+
+//////////OBJETS DE LA BESACE DES MERVEILLES//////////
+
+COPY	~Derats_Ogre/items/besace/pxboisea.itm~	~override~	SAY NAME2 @503	SAY DESC @504
+COPY_EXISTING	~pxboisea.itm~		~override/pxbecure.itm~	SAY NAME2 @505	SAY DESC @506	WRITE_ASCII 0x3a ~pxbecure~ #8	WRITE_BYTE 0x34 10
+COPY_EXISTING	~misc62.itm~		~override/pxbchat.itm~	SAY DESC @508
+COPY_EXISTING	~misc64.itm~		~override/pxbteles.itm~
+				~misc60.itm~		~override/pxbaraig.itm~
+				~miscah.itm~		~override/pxbsabli.itm~
+				~miscag.itm~		~override/pxbmiro2.itm~
+				~plot01l.itm~		~override/pxbriqu.itm~
+COPY_EXISTING	~misc74.itm~		~override/pxbbouge.itm~	SAY NAME2 @5011	SAY DESC @5012
+COPY_EXISTING	~pxboisea.itm~		~override/pxbmouch.itm~	SAY NAME2 @5013	SAY DESC @5014	WRITE_ASCII 0x3a ~pxbmouch~ #8	WRITE_BYTE 0x34 1 	WRITE_BYTE 0x4c 0
+COPY_EXISTING	~pxbmouch.itm~		~override/pxbcrape.itm~	SAY NAME2 @5015	SAY DESC @5016	WRITE_ASCII 0x3a ~pxbcrape~ #8
+COPY_EXISTING	~pxboisea.itm~		~override/pxbcuirm.itm~	SAY NAME2 @5017	SAY DESC @5018	WRITE_ASCII 0x3a ~pxbcuirm~ #8	WRITE_BYTE 0x34 5	WRITE_BYTE 0x4c 5
+COPY_EXISTING	~pxboisea.itm~		~override/pxboreil.itm~	SAY NAME2 @5019	SAY DESC @5020	WRITE_ASCII 0x3a ~pxboreil~ #8	WRITE_BYTE 0x34 1
+COPY_EXISTING	~pxbcuirm.itm~		~override/pxblaine.itm~	SAY NAME2 @5021	SAY DESC @5022	WRITE_ASCII 0x3a ~pxblaine~ #8
+COPY_EXISTING	~pxbcuirm.itm~		~override/pxbengre.itm~	SAY NAME2 @5023	SAY DESC @5024	WRITE_ASCII 0x3a ~pxbengre~ #8	WRITE_BYTE 0x4c 25
+COPY_EXISTING	~pxboreil.itm~		~override/pxbsemai.itm~	SAY NAME2 @5025	SAY DESC @5026	WRITE_ASCII 0x3a ~pxbsemai~ #8	WRITE_BYTE 0x34 2
+COPY_EXISTING	~pxbsemai.itm~		~override/pxbpoiss.itm~	SAY NAME2 @5027	SAY DESC @5028	WRITE_ASCII 0x3a ~pxbpoiss~ #8
+COPY_EXISTING	~ttkey01.itm~		~override/pxbclef.itm~	SAY NAME2 @5031	SAY DESC @5032
+COPY_EXISTING	~misc82.itm~		~override/pxbarmur.itm~	SAY NAME2 @5033	SAY DESC @5034
+COPY_EXISTING	~pxbmouch.itm~		~override/pxbcraie.itm~	SAY NAME2 @5035	SAY DESC @5036	WRITE_ASCII 0x3a ~pxbcraie~ #8
+COPY_EXISTING	~pxbmouch.itm~		~override/pxblavab.itm~	SAY NAME2 @5037	SAY DESC @5038	WRITE_ASCII 0x3a ~pxblavab~ #8	WRITE_BYTE 0x4c 10
+COPY_EXISTING	~pxbmouch.itm~		~override/pxbproue.itm~	SAY NAME2 @5039	SAY DESC @5040	WRITE_ASCII 0x3a ~pxbproue~ #8	WRITE_BYTE 0x4c 5
+COPY_EXISTING	~pxbmouch.itm~		~override/pxbpoupe.itm~	SAY NAME2 @5041	SAY DESC @5042	WRITE_ASCII 0x3a ~pxbpoupe~ #8
+COPY_EXISTING	~pxbmouch.itm~		~override/pxbserre.itm~	SAY NAME2 @5043	SAY DESC @5044	WRITE_ASCII 0x3a ~pxbserre~ #8
+COPY_EXISTING	~pxbsemai.itm~		~override/pxbpapie.itm~	SAY NAME2 @5045	SAY DESC @5046	WRITE_ASCII 0x3a ~pxbpapie~ #8
+COPY_EXISTING	~pxboisea.itm~		~override/pxbchope.itm~	SAY NAME2 @5047	SAY DESC @5048	WRITE_ASCII 0x3a ~pxbchope~ #8	WRITE_BYTE 0x34 100
+COPY_EXISTING	~pxbmouch.itm~		~override/pxbfourc.itm~	SAY NAME2 @5049	SAY DESC @5050	WRITE_ASCII 0x3a ~pxbfourc~ #8
+COPY_EXISTING	~misc5l.itm~		~override/pxbnouno.itm~	SAY NAME2 @5051	SAY DESC @5052
+COPY_EXISTING	~pxboreil.itm~		~override/pxbencri.itm~	SAY NAME2 @5053	SAY DESC @5054	WRITE_ASCII 0x3a ~pxbencri~ #8
+COPY_EXISTING	~pxbcuirm.itm~		~override/pxbminer.itm~	SAY NAME2 @5055	SAY DESC @5056	WRITE_ASCII 0x3a ~pxbminer~ #8	WRITE_BYTE 0x34 10
+COPY_EXISTING	~pxbmouch.itm~		~override/pxblove.itm~	SAY NAME2 @5057	SAY DESC @5058	WRITE_ASCII 0x3a ~pxblove~ #8	WRITE_ASCII 0x44 ~GSCRL01~ #8
+COPY_EXISTING	~pxbmouch.itm~		~override/pxbchiff.itm~	SAY NAME2 @5059	SAY DESC @5060	WRITE_ASCII 0x3a ~pxbchiff~ #8
+COPY_EXISTING	~pxbmouch.itm~		~override/pxbvoile.itm~	SAY NAME2 @5061	SAY DESC @5062	WRITE_ASCII 0x3a ~pxbvoile~ #8
+COPY_EXISTING	~pxbchope.itm~		~override/pxbchop2.itm~	SAY NAME2 @5063	SAY DESC @5064	WRITE_BYTE 0x34 1
+COPY_EXISTING	~pxbchope.itm~		~override/pxbroseg.itm~	SAY NAME2 @5065	SAY DESC @5066	WRITE_ASCII 0x3a ~pxbroseg~ #8
+COPY_EXISTING	~pxbchope.itm~		~override/pxbyeti.itm~	SAY NAME2 @5071	SAY DESC @5072	WRITE_ASCII 0x3a ~pxbyeti~ #8
+COPY_EXISTING	~misc9m.itm~		~override/pxbpipe2.itm~	SAY NAME2 @5082
+COPY_EXISTING	~pxbengre.itm~		~override/pxbrhino.itm~	SAY NAME2 @50971	SAY DESC @50972	WRITE_ASCII 0x3a ~pxbrhino~ #8	WRITE_SHORT 0x34 1000	WRITE_BYTE 0x4c 42	WRITE_ASCII 0x44 ~pxbgrhin~ #8
+COPY_EXISTING	~pxbengre.itm~		~override/pxbombre.itm~	SAY NAME2 @50973	SAY DESC @50974	WRITE_ASCII 0x3a ~pxbombre~ #8	WRITE_BYTE 0x34 40	WRITE_ASCII 0x44 ~pxbgombr~ #8
+COPY_EXISTING	~pxbmouch.itm~		~override/pxbcorne.itm~	SAY NAME2 @50975 	SAY DESC @50976	WRITE_ASCII 0x3a ~pxbcorne~ #8	WRITE_SHORT 0x34 5000	WRITE_BYTE 0x4c 15
+COPY_EXISTING	~pxbmouch.itm~		~override/pxblingo.itm~	SAY NAME2 @50977 	SAY DESC @50978	WRITE_ASCII 0x3a ~pxblingo~ #8	WRITE_SHORT 0x34 1000
+COPY	~Derats_Ogre/items/besace/pxbboite.itm~	~override~	SAY NAME2 @501001	SAY DESC @501002
+COPY	~Derats_Ogre/Store/pxbboite.sto~		~override~	SAY 0xc @501001
+COPY	~Derats_Ogre/items/besace/pxbchoco.itm~	~override~	SAY NAME2 @5010021	SAY DESC @5010022
+COPY	~Derats_Ogre/items/besace/pxbchanc.itm~	~override~	SAY NAME2 @5010023	SAY DESC @5010024
+COPY	~Derats_Ogre/items/besace/pxbbonbo.itm~	~override~	SAY NAME2 @5010025	SAY DESC @5010026
+COPY	~Derats_Ogre/items/besace/pxbmecha.itm~	~override~	SAY NAME2 @5010027	SAY DESC @5010028
+COPY	~Derats_Ogre/items/besace/pxbcrous.itm~	~override~	SAY NAME2 @5010029	SAY DESC @50100210
+COPY	~Derats_Ogre/items/besace/pxbnoir.itm~	~override~	SAY NAME2 @501003	SAY DESC @501004
+COPY	~Derats_Ogre/Cres/pxbnoir.cre~			~override~	SAY NAME1 @5010041	SAY NAME2 @5010041
+COPY_EXISTING	~nymphsu.eff~		~override/pxbnoir.eff~	WRITE_ASCII 0x30 ~pxbnoir~ #8
+COPY_EXISTING	~plat01.itm~		~override/pxbnoir1.itm~	WRITE_BYTE 0x76 66	WRITE_BYTE 0xa6 66	WRITE_BYTE 0xd6 66
+COPY_EXISTING	~sw1h04.itm~		~override/pxbnoir3.itm~	WRITE_BYTE 0xae 66	WRITE_BYTE 0xde 66	WRITE_BYTE 0x10e 66
+COPY_EXISTING	~pxbnoir.itm~		~override/pxbblanc.itm~	SAY NAME2 @501005	SAY DESC @501006	WRITE_ASCII 0x3a ~pxbblanc~ #8	WRITE_ASCII 0x76 ~pxbblanc~ #8	WRITE_ASCII 0xbe ~pxbblanc~ #8
+COPY	~Derats_Ogre/Cres/pxbblanc.cre~			~override~	SAY NAME1 @5010061	SAY NAME2 @5010061
+COPY_EXISTING	~nymphsu.eff~		~override/pxbblanc.eff~	WRITE_ASCII 0x30 ~pxbblanc~ #8
+COPY_EXISTING	~plat01.itm~		~override/pxbblan1.itm~	WRITE_BYTE 0x76 105	WRITE_BYTE 0xa6 105	WRITE_BYTE 0xd6 105
+COPY_EXISTING	~blun06.itm~		~override/pxbblan3.itm~	WRITE_BYTE 0xae 105	WRITE_BYTE 0xde 105	WRITE_BYTE 0x10e 105
+COPY	~Derats_Ogre/items/besace/pxbsiffl.itm~	~override~	SAY NAME2 @501007	SAY DESC @501008
+COPY	~Derats_Ogre/items/besace/pxbmiroi.itm~	~override~	SAY NAME2 @501009	SAY DESC @5010010
+COPY	~Derats_Ogre/items/besace/pxbpipe.itm~	~override~	SAY NAME2 @5010011	SAY DESC @5010012
+COPY	~Derats_Ogre/items/besace/pxbpierr.itm~	~override~	SAY NAME2 @5010013	SAY DESC @5010014
+COPY	~Derats_Ogre/items/besace/pxbgrimo.itm~	~override~	SAY NAME2 @5010015	SAY DESC @5010016
+
+APPEND ~tooltip.2da~ ~PXODETEC           116895       -1          -1~
+APPEND ~tooltip.2da~ ~PXBPIPE            12065        -1          -1~
+APPEND ~tooltip.2da~ ~PXBSIFFL           23791        -1          -1~
+APPEND ~tooltip.2da~ ~PXBMIROI           116999       -1          -1~
+APPEND ~tooltip.2da~ ~PXBPIERR           25875        -1          -1~
+COPY_EXISTING ~tooltip.2da~						~override~	REPLACE ~116895~ @1081
+COPY_EXISTING ~tooltip.2da~						~override~	REPLACE ~116999~ @501009
+
+//////////SORTS DU MAGASIN//////////
+
+COPY	~Derats_Ogre/spells/pxlspets.spl~		~override~	SAY NAME1 @2011	SAY UNIDENTIFIED_DESC @2012
+COPY_EXISTING	~scrl7g.itm~		~override/pxlspeta.itm~	SAY NAME2 @2011	SAY DESC @2012	WRITE_ASCII 0x3a ~pxlspeta~ #8	WRITE_ASCII 0x76 ~pxlspeta~ #8	WRITE_ASCII 0xf6 ~pxlspets~ #8	WRITE_ASCII 0xae ~pxlspeta~ #8	WRITE_ASCII 0x126 ~pxlspets~ #8	WRITE_SHORT 0x34 100
+COPY_EXISTING	~amcall.vvc~		~override/pxlspetv.vvc~	WRITE_ASCII 0x8 ~pxlspet1~ #8
+COPY_EXISTING	~pxlspets.spl~		~override/pxlsrots.spl~	SAY NAME1 @2013	SAY UNIDENTIFIED_DESC @2014	WRITE_ASCII 0xae ~pxlsrotv~ #8	WRITE_ASCII 0x3a ~pxlsrotc~ #8	WRITE_ASCII 0x76 ~pxlsrotb~ #8
+COPY_EXISTING	~scrl7g.itm~		~override/pxlsrota.itm~	SAY NAME2 @2013	SAY DESC @2014	WRITE_ASCII 0x3a ~pxlsrota~ #8	WRITE_ASCII 0x76 ~pxlsrota~ #8	WRITE_ASCII 0xf6 ~pxlsrots~ #8	WRITE_ASCII 0xae ~pxlsrota~ #8	WRITE_ASCII 0x126 ~pxlsrots~ #8	WRITE_SHORT 0x34 100
+COPY_EXISTING	~amcall.vvc~		~override/pxlsrotv.vvc~	WRITE_ASCII 0x8 ~pxlsrot1~ #8
+COPY	~Derats_Ogre/spells/pxlsrune.spl~		~override~	SAY NAME1 @2015	SAY UNIDENTIFIED_DESC @2016	SAY 0xce @20161
+COPY_EXISTING	~scrl2h.itm~		~override/pxlsruna.itm~	SAY NAME2 @2015	SAY DESC @2016	WRITE_ASCII 0x3a ~pxlsruna~ #8	WRITE_ASCII 0x76 ~pxlsruna~ #8	WRITE_ASCII 0xf6 ~pxlsrune~ #8	WRITE_ASCII 0xae ~pxlsruna~ #8	WRITE_ASCII 0x126 ~pxlsrune~ #8	WRITE_SHORT 0x34 100
+COPY	~Derats_Ogre/spells/pxlsreme.spl~		~override~	SAY NAME1 @2017	SAY UNIDENTIFIED_DESC @2018
+COPY_EXISTING	~scrl7g.itm~		~override/pxlsrema.itm~	SAY NAME2 @2017	SAY DESC @2018	WRITE_ASCII 0x3a ~sppr611a~ #8	WRITE_ASCII 0x76 ~sppr611a~ #8	WRITE_ASCII 0xf6 ~pxlsreme~ #8	WRITE_ASCII 0xae ~sppr611a~ #8	WRITE_ASCII 0x126 ~pxlsreme~ #8	WRITE_SHORT 0x34 100
+COPY	~Derats_Ogre/spells/pxlsinvi.spl~		~override~	SAY NAME1 @2021	SAY UNIDENTIFIED_DESC @2022	SAY 0x9e @20221
+COPY_EXISTING	~scrl90.itm~		~override/pxlsinva.itm~	SAY NAME2 @2021	SAY DESC @2022	WRITE_ASCII 0xf6 ~pxlsanti~ #8	WRITE_ASCII 0x126 ~pxlsanti~ #8
+COPY	~Derats_Ogre/spells/pxlsanti.spl~		~override~	SAY NAME1 @2023	SAY UNIDENTIFIED_DESC @2024
+COPY_EXISTING	~scrl7g.itm~		~override/pxlsanta.itm~	SAY NAME2 @2023	SAY DESC @2024	WRITE_ASCII 0x3a ~pxlsanta~ #8	WRITE_ASCII 0x76 ~pxlsanta~ #8	WRITE_ASCII 0xf6 ~pxlsanti~ #8	WRITE_ASCII 0xae ~pxlsanta~ #8	WRITE_ASCII 0x126 ~pxlsanti~ #8	WRITE_SHORT 0x34 200
+COPY_EXISTING	~amcall.vvc~		~override/pxlsantv.vvc~	WRITE_ASCII 0x8 ~pxlsant1~ #8	WRITE_ASCII 0x78 ~pxlsant1~ #8	WRITE_BYTE 0x4c 10
+COPY	~Derats_Ogre/spells/pxlsaide.spl~		~override~	SAY NAME1 @2031	SAY UNIDENTIFIED_DESC @2032
+COPY_EXISTING	~scrl98.itm~		~override/pxlsaida.itm~	SAY NAME2 @2031	SAY DESC @2032	WRITE_ASCII 0x3a ~pxlsaida~ #8	WRITE_ASCII 0x76 ~pxlsaida~ #8	WRITE_ASCII 0xf6 ~pxlsaide~ #8	WRITE_ASCII 0xae ~pxlsaida~ #8	WRITE_ASCII 0x126 ~pxlsaide~ #8	WRITE_SHORT 0x34 300
+COPY	~Derats_Ogre/spells/pxlsaura.spl~		~override~	SAY NAME1 @2033	SAY UNIDENTIFIED_DESC @2034
+COPY_EXISTING	~scrl1m.itm~		~override/pxlsaura.itm~	SAY NAME2 @2033	SAY DESC @2034	WRITE_ASCII 0x3a ~pxlsaura~ #8	WRITE_ASCII 0x76 ~pxlsaura~ #8	WRITE_ASCII 0xf6 ~pxlsaura~ #8	WRITE_ASCII 0xae ~pxlsaura~ #8	WRITE_ASCII 0x126 ~pxlsaura~ #8
+COPY_EXISTING	~sparm2.vvc~				~override/pxlsaurv.vvc~	WRITE_ASCII 0x8 ~pxlsaur1~ #8	WRITE_BYTE 0x34 15	WRITE_BYTE 0x20 (THIS | 64)	WRITE_BYTE 0x18 (THIS | 2)
+COPY	~Derats_Ogre/spells/pxlsconv.spl~		~override~	SAY NAME1 @2035	SAY UNIDENTIFIED_DESC @2036
+COPY_EXISTING	~scrl67.itm~		~override/pxlscona.itm~	SAY NAME2 @2035	SAY DESC @2036	WRITE_ASCII 0x3a ~pxlscona~ #8	WRITE_ASCII 0x76 ~pxlscona~ #8	WRITE_ASCII 0xf6 ~pxlsconv~ #8	WRITE_ASCII 0xae ~pxlscona~ #8	WRITE_ASCII 0x126 ~pxlsconv~ #8	WRITE_SHORT 0x34 300
+COPY	~Derats_Ogre/spells/pxlspant.itm~		~override~	SAY NAME2 @20361	SAY DESC @20362
+COPY	~Derats_Ogre/spells/pxlscame.spl~		~override~	SAY NAME1 @2041	SAY UNIDENTIFIED_DESC @2042	SAY 0xfe @20421
+COPY_EXISTING	~scrl7g.itm~		~override/pxlscama.itm~	SAY NAME2 @2041	SAY DESC @2042	WRITE_ASCII 0x3a ~spwi124a~ #8	WRITE_ASCII 0x76 ~spwi124a~ #8	WRITE_ASCII 0xf6 ~pxlscame~ #8	WRITE_ASCII 0xae ~spwi124a~ #8	WRITE_ASCII 0x126 ~pxlscame~ #8	WRITE_SHORT 0x34 500
+COPY_EXISTING	~pxlsrune.spl~		~override/pxlsmurs.spl~	SAY NAME1 @2051	SAY UNIDENTIFIED_DESC @2052	SAY 0xce @20521	WRITE_BYTE 0x34 5	WRITE_ASCII 0x3a ~pxlsmurc~ #8	WRITE_ASCII 0x76 ~pxlsmurb~ #8	WRITE_BYTE 0x84 9
+COPY_EXISTING	~scrl2h.itm~		~override/pxlsmura.itm~	SAY NAME2 @2051	SAY DESC @2052	WRITE_ASCII 0x3a ~pxlsmura~ #8	WRITE_ASCII 0x76 ~pxlsmura~ #8	WRITE_ASCII 0xf6 ~pxlsmurs~ #8	WRITE_ASCII 0xae ~pxlsmura~ #8	WRITE_ASCII 0x126 ~pxlsmurs~ #8
+COPY	~Derats_Ogre/spells/pxlstran.spl~		~override~	SAY NAME1 @2053	SAY UNIDENTIFIED_DESC @2054
+COPY_EXISTING	~scrl6q.itm~		~override/pxlstraa.itm~	SAY NAME2 @2053	SAY DESC @2054	WRITE_ASCII 0x3a ~sppr716a~ #8	WRITE_ASCII 0x76 ~sppr716a~ #8	WRITE_ASCII 0xf6 ~pxlstran~ #8	WRITE_ASCII 0xae ~sppr716a~ #8	WRITE_ASCII 0x126 ~pxlstran~ #8	WRITE_SHORT 0x34 1000
+COPY	~Derats_Ogre/spells/pxlsvoya.spl~		~override~	SAY NAME1 @2061	SAY UNIDENTIFIED_DESC @2062	SAY 0x9e @20621
+COPY_EXISTING	~scrlb4.itm~		~override/pxlsvoya.itm~	SAY NAME2 @2061	SAY DESC @2062	WRITE_ASCII 0x3a ~pxlsvoya~ #8	WRITE_ASCII 0x76 ~pxlsvoya~ #8	WRITE_ASCII 0xf6 ~pxlsvoya~ #8	WRITE_ASCII 0xae ~pxlsvoya~ #8	WRITE_ASCII 0x126 ~pxlsvoya~ #8	WRITE_SHORT 0x34 2000
+COPY	~Derats_Ogre/spells/pxlsresu.spl~		~override~	SAY NAME1 @2063	SAY UNIDENTIFIED_DESC @2064	SAY 0x9e @20641
+COPY_EXISTING	~scrl1c.itm~		~override/pxlsresa.itm~	SAY NAME2 @2063	SAY DESC @2064	WRITE_ASCII 0x3a ~sppr504a~ #8	WRITE_ASCII 0x76 ~sppr504a~ #8	WRITE_ASCII 0xf6 ~pxlsresu~ #8	WRITE_ASCII 0xae ~sppr504a~ #8	WRITE_ASCII 0x126 ~pxlsresu~ #8	WRITE_SHORT 0x34 2000
+COPY_EXISTING	~amcall.vvc~		~override/pxlsresv.vvc~	WRITE_ASCII 0x8 ~pxlsres1~ #8
+COPY	~Derats_Ogre/spells/pxlssupe.spl~		~override~	SAY NAME1 @20111	SAY UNIDENTIFIED_DESC @20112	SAY 0xce @201121
+COPY_EXISTING	~scrl7g.itm~		~override/pxlssupa.itm~	SAY NAME2 @20111	SAY DESC @20112	WRITE_ASCII 0x3a ~pxlssupa~ #8	WRITE_ASCII 0x76 ~pxlssupa~ #8	WRITE_ASCII 0xf6 ~pxlssupe~ #8	WRITE_ASCII 0xae ~pxlssupa~ #8	WRITE_ASCII 0x126 ~pxlssupe~ #8	WRITE_SHORT 0x34 20000
+COPY	~Derats_Ogre/spells/pxlstele.spl~		~override~	SAY NAME1 @20113	SAY UNIDENTIFIED_DESC @20114
+COPY_EXISTING	~scrl7g.itm~		~override/pxlstela.itm~	SAY NAME2 @20113	SAY DESC @20114	WRITE_ASCII 0x3a ~pxlstela~ #8	WRITE_ASCII 0x76 ~pxlstela~ #8	WRITE_ASCII 0xf6 ~pxlstele~ #8	WRITE_ASCII 0xae ~pxlstela~ #8	WRITE_ASCII 0x126 ~pxlstele~ #8	WRITE_SHORT 0x34 20000
+COPY	~Derats_Ogre/spells/pxlschan.spl~		~override~	SAY NAME1 @20115	SAY UNIDENTIFIED_DESC @20116	SAY 0x9e @201161
+COPY_EXISTING	~scrl7g.itm~		~override/pxlschaa.itm~	SAY NAME2 @20115	SAY DESC @20116	WRITE_ASCII 0x3a ~spwi109a~ #8	WRITE_ASCII 0x76 ~spwi109a~ #8	WRITE_ASCII 0xf6 ~pxlschan~ #8	WRITE_ASCII 0xae ~spwi109a~ #8	WRITE_ASCII 0x126 ~pxlschan~ #8	WRITE_SHORT 0x34 20000
+COPY_EXISTING	~spstones.vvc~		~override/pxlschav.vvc~	WRITE_ASCII 0x8 ~pxlscha1~ #8	WRITE_BYTE 0x28 5	WRITE_BYTE 0x2c 0	WRITE_BYTE 0x4c 20	WRITE_BYTE 0x34 32	WRITE_BYTE 0x18 (THIS|2)	WRITE_BYTE 0x20 (THIS | 64)
