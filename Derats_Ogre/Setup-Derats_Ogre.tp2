@@ -94,6 +94,7 @@ COPY_EXISTING ~trmer02.sto~						~override~	ADD_STORE_ITEM ~pxopoudr~ AFTER  ~sh
 
 COMPILE ~Derats_Ogre/Dialog~
 COMPILE ~Derats_Ogre/Scripts~
+ADD_JOURNAL @501 @502 USING ~Derats_Ogre/Languages/%LANGUAGE%/Lumens.tra~
 
 //////////OBJETS DU MAGASIN//////////
 
