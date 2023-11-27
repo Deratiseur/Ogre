@@ -13,10 +13,13 @@
 -------------
 
 Une petite quête qui vous fera chercher tous un tas d'objets de différentes manières.
+
 Pour démarrer la quête, parlez à un ogre surprenant planqué dans un endroit ou les gardes ne viennent jamais.
 
 A little quest that will have you searching for a whole host of objects in different ways.
+
 To start the quest, talk to a surprising ogre hiding in a place where the guards never come.
 
 Небольшой квест, в котором вам предстоит отыскать множество предметов различными способами.
+
 Чтобы начать квест, поговорите с удивительным людоедом, прячущимся в месте, где никогда не бывает стражников.
