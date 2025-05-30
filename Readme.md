@@ -15,7 +15,7 @@
 
 Une petite quête qui vous fera chercher tous un tas d'objets de différentes manières.
 
-Pour démarrer la quête, parlez à un ogre surprenant planqué dans un endroit ou les gardes ne viennent jamais.
+Pour démarrer la quête, parlez à un ogre surprenant planqué dans un endroit où les gardes ne viennent jamais.
 
 -------------
 
