@@ -1,6 +1,6 @@
 BACKUP ~Derats_Ogre/Backup~
 AUTHOR ~Deratiseur, at the_deratiseur@hotmail.com~
-VERSION ~Version 4.1~
+VERSION ~Version 5~
 
 ALWAYS
 	ACTION_IF GAME_IS ~IWDEE BG2EE EET~ THEN BEGIN
