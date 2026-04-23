@@ -1,0 +1,217 @@
+@503 = ~An exotic bird in a cage~
+@504 = ~Inside this cage is an exotic bird that would rather be somewhere else~
+
+@505 = ~A Cage of Squirrels~
+@506 = ~Within this cage are two cramped squirrels.~
+
+@508 = ~A dead cat. It is particularly well-preserved, so much so that it looks as if it were sleeping.~
+
+@5011 = ~Candlestick~
+@5012 = ~This candlestick has seen much use. Dents and nicks adorn its tarnished surface.~
+
+@5013 = ~Dead fly~
+@5014 = ~A dead fly. So small and dry that it is amazing you were able to get it out of the bag without crushing it.~
+
+@5015 = ~Toad Figurine~
+@5016 = ~This small wooden figurine depicts a toad. Although it is very well carved, the figurine is of poor quality, as evidenced by the paint peeling off in all the corners.~
+
+@5017 = ~Rotten Honey Leather~
+@5018 = ~This was once a piece of honey leather of great value. The elves call honey leather a very light fabric that protects against rain and moisture. It tears easily, but the elves use it to make their tents and camping gear.~
+
+@5019 = ~Pillow~
+@5020 = ~A pillow! Now that’s handy for sleeping under the stars, if you can manage to carry one around.~
+
+@5021 = ~Moth-eaten thistle wool~
+@5022 = ~This gray fabric was of excellent quality before the moths got to it. Thistle wool is a highly prized material that elves use to make their cloaks. Given its quality, it was easy to enchant.~
+
+@5023 = ~Broken Gear~
+@5024 = ~This broken part must have been part of a complex machine.
+
+STATISTICS:
+
+Weight: 25~
+
+@5025 = ~Seeds~
+@5026 = ~These seeds come from one of the rarest tropical plants in existence. This plant apparently thrives in the most extreme conditions.~
+
+@5027 = ~Fish carcass~
+@5028 = ~A trout. The bones of these enormous fish, found only in the lakes of Icewind Dale, can be used to create magnificent sculptures.~
+
+@5031 = ~Rusty Key~
+@5032 = ~This is a large iron key, worn down by time and corroded by rust. What it unlocks and where it unlocks it remains a mystery.~
+
+@5033 = ~Broken Armor~
+@5034 = ~This armor, once of great value, would not even be fit for a skeleton. It has been pierced in many places and crushed in others. No one could have survived the blows that caused such damage.
+
+Weight: 20~
+
+@5035 = ~Chalk~
+@5036 = ~A small piece of chalk, as ordinary as can be.~
+
+@5037 = ~Strange object~
+@5038 = ~This appears to be some sort of basin. Strange metal ornaments are attached to the rim, near what looks like a faucet with levers. Although this object is clearly of high quality, some idiot drilled a hole in the bottom, rendering it completely useless.~
+
+@5039 = ~Ship's Bow~
+@5040 = ~This carved bow from a small fishing boat depicts a woman looking straight ahead. She appears very old, but the lingering, salty scent of Maer Dualdon still clings to it. Engraved beneath the bow is the name “Veira's Gaze.”
+Weight: 2.5~
+
+@5041 = ~Lady of Pain Rag Doll~
+@5042 = ~The years have not been kind to this tiny rag doll; she is torn at the seams and the threads are coming undone. It is clear that she is meant to represent the Lady of Pain, but the buttons serving as her eyes and the softness of the plush fabric are far from inspiring terror.~
+
+@5043 = ~Talon~
+@5044 = ~This clawed talon once belonged to a large bird. Someone probably threw it away after refusing to eat it.~
+
+@5045 = ~Paper roll~
+@5046 = ~This roll of paper is surprisingly long and cut very neatly. Judging by the number of circles that make up the roll, the total length of the paper must be at least 3 meters, and it’s hard to imagine how such a long piece could have been cut so perfectly straight. Furthermore, when unrolling it, you notice that small perforations are cut perpendicular to the length approximately every ten centimeters, which makes cutting it much easier.
+This amazing roll would be perfect for taking notes if the paper weren’t so thin. In fact, it’s so thin that it’s almost impossible to write on it without the pencil going right through. Honestly, what a piece of junk!~
+
+@5047 = ~Refreshing mug~
+@5048 = ~The rim of this large mug is covered in strange runes. It keeps its contents ice-cold, regardless of the ambient temperature.
+
+Weight: 2~
+
+@5049 = ~Small steel fork~
+@5050 = ~This fork is far from a work of art. Its steel plating has worn away in places, it’s bent out of shape, and its tines are caked with grime.~
+
+@5051 = ~Teddy~
+@5052 = ~This teddy bear just wants to be hugged and snuggle up to you. Will you grant his wish?~
+
+@5053 = ~Inkwell~
+@5054 = ~This little ceramic inkwell and the quill that comes with it are a scribe’s best friends.~
+
+@5055 = ~Iron ore~
+@5056 = ~A piece of iron ore.~
+
+@5057 = ~Love Letter~
+@5058 = ~This passionate love letter doesn't shy away from intimate details. But as for who wrote it, and to whom it was addressed...~
+
+@5059 = ~Rag~
+@5060 = ~This damp rag appears to have been used to wipe up blood and other less appetizing bodily fluids.~
+
+@5061 = ~Scented Veil~
+@5062 = ~This is a splendid, purple, scented veil. The fabric it is made of is so light that it feels more like a brightly colored rectangle than a piece of cloth. But the veil’s scent is even more remarkable than its appearance; it is undoubtedly one of the most exotic and exciting scents you have ever had the pleasure of inhaling.~
+
+@5063 = ~Dented Mug~
+@5064 = ~This dented mug is covered in dents, and its handle looks like it’s about to fall off. Given the size of the hundreds of dents covering it, one might assume it was used to hit someone on the head.~
+
+@5065 = ~Ice Rose~
+@5066 = ~This is either a rose turned to ice or a piece of ice sculpted by an artist. It is impossible to tell the difference between this work of art and a real flower. If it is a sculpture, it is a true masterpiece.~
+
+@5071 = ~Yeti Fur~
+@5072 = ~These thick furs are highly prized for their warmth and durability. The inhabitants of the Ten Cities pay dearly for them, as few dare to hunt yetis on their territory. In some Reghed tribes, young men must kill a yeti to come of age.~
+
+@5082 = ~Pipe~
+
+@50971 = ~Rhinoceros Beetle Carapace~
+@50972 = ~This is a piece of rhinoceros beetle carapace, known for its incredible durability.
+
+Weight: 42~
+
+@50973 = ~Umber Hulk Carapace~
+@50974 = ~This umber hulk Carapace is made of chitin plates bound together by a thick, very dark brown skin. It looks extremely difficult to pierce.
+
+Weight: 12~
+
+@50975 = ~Drinking Horn~
+@50976 = ~This majestic drinking horn is wrapped in finely chiseled gold and inlaid with white and blue semi-precious stones.~
+
+@50977 = ~Gold Bar~
+@50978 = ~This is a gold bar. It’s pretty heavy, but if it’s worth its weight in gold... .
+
+Weight: 15~
+
+@501001 = ~Box of magical chocolates~
+@501002 = ~This large box is finely decorated in white and red, and bears an inscription in gold letters: Happy Easter. You have absolutely no idea what Easter is, or where this box might have come from. The box appears to be enchanted to keep its contents fresh.
+It contains various types of chocolates, arranged in neat rows across several layers, each separated by a thick sheet of paper on which the different properties of the chocolates are written:
+
+Blessed Chocolate
+This delicious milk chocolate candy with a caramel center has been blessed by a high priest of a benevolent but unknown god. Anyone who eats it feels the effects of this blessing. (Aid spell on the consumer)
+
+Lucky Chocolate
+This crescent-shaped chocolate is filled with cream. Anyone who eats it will see their luck increase for a time. (Luck spell on the consumer)
+
+Fresh Mint Candy
+This small, round, hard candy gives such fresh breath that anyone who swallows it will see their Charisma increase considerably for a time. (Friendship spell on the consumer)
+
+Mechanus Candy
+This hard candy is shaped like a small gear. Although made of chocolate, it has a slight metallic aftertaste. When placed on the tongue, it crackles slightly and generates a small amount of electricity. When the required conditions are met, anyone who eats the candy can summon lightning. (Call lightning spell around the consumer)
+
+Crunchy Chocolate
+This dark chocolate candy, encased in a crunchy praline shell, has been blessed by the Eoilans, mystical monks from the world of Irm. Anyone who eats it is protected for a time against the forces of evil. (Cast a Protection Against Evil spell on the consumer)~
+
+@5010021 = ~Blessed Chocolate~
+@5010022 = ~This delicious milk chocolate candy with a caramel center has been blessed by a high priest of a benevolent but unknown god. Anyone who eats it feels the effects of this blessing. (Aid spell on the consumer)~
+
+@5010023 = ~Lucky Chocolate~
+@5010024 = ~This crescent-shaped chocolate is filled with cream. Anyone who eats it will see their luck increase for a time. (Luck spell on the consumer)~
+
+@5010025 = ~Frosty Mint Candy~
+@5010026 = ~This small, round, hard candy gives such fresh breath that anyone who swallows it will see their Charisma increase considerably for a time. (Friendship spell on the consumer)~
+
+@5010027 = ~Mechanus Candy~
+@5010028 = ~This hard candy is shaped like a small gear. Although made of chocolate, it has a slight metallic aftertaste. When placed on the tongue, it crackles slightly and generates a small amount of electricity. When the required conditions are met, anyone who eats the candy can summon lightning. (Call lightning spell around the consumer)~
+
+@5010029 = ~Crunchy Chocolate~
+@50100210 = ~This dark chocolate candy, encased in a crunchy praline shell, has been blessed by the Eoilans, mystical monks from the world of Irm. Anyone who eats it is protected for a time against the forces of evil. (Cast a Protection Against Evil spell on the consumer)~
+
+@501003 = ~Chess piece: black knight~
+@501004 = ~This chess piece is a black knight made of ebony. It is one of the lost pieces from the legendary chessboards of Niri Alud. Alud was a Tethyrian conjurer who loved chess so much that he always carried his chessboards with him when traveling. He also wanted to be able to summon allies at any moment without revealing his intentions, which led him to create chess pieces of different colors that could summon automatons to fight for him when needed. Almost all of Niri Alud’s pieces were lost when marauders from Calimsham attacked him. Knowing nothing of magic, his attackers abandoned the pieces in the desert. Those that were recovered were quickly scattered and ended up hundreds of kilometers apart from one another. A few treasure hunters are still searching for them.
+
+STATISTICS:
+
+Summon a warrior ally to fight for the owner.~
+@5010041 = ~Black Knight~
+
+@501005 = ~Chess piece: white bishop~
+@501006 = ~This chess piece is a white bishop made of soapstone. It is one of the missing pieces from the legendary chess sets of Niri Alud. Alud was a Tethyrian conjurer who loved chess so much that he always took his chessboards with him on his travels. He also wanted to be able to summon allies at any moment without revealing his intentions, which led him to create chess pieces of different colors that could summon automatons to fight for him when needed. Almost all of Niri Alud’s pieces were lost when marauders from Calimsham attacked him. Knowing nothing of magic, his attackers abandoned the pieces in the desert. Those that were recovered were quickly scattered and ended up hundreds of kilometers apart from one another. A few treasure hunters are still searching for them.
+
+STATISTICS:
+
+Summon a priest ally to fight for the owner.~
+@5010061 = ~White Bishop~
+
+@501007 = ~Protection Whistle~
+@501008 = ~This whistle, carved from human bone, is one of a necromancer’s favorite items. Its enchantment allows the user to summon its magic by blowing into it.
+
+STATISTICS:
+
+Once per day, protects the user with a Globe of Invulnerability.~
+
+@501009 = ~Duplication Mirror~
+@5010010 = ~This magic mirror instantly creates a duplicate of anyone who looks into it.
+The duplicate is an illusion identical in every way to the original, which can greatly confuse the enemy. The image can be targeted instead of the character, giving the character a 50% chance to avoid attacks.
+The mirror can only be used once; after that, its magic dissipates and it crumbles to dust.
+
+STATISTICS:
+
+Creates an illusory double of anyone who looks into it.~
+
+@5010011 = ~Abyssal Pipe~
+@5010012 = ~This small, intricately carved wooden pipe resembles a demon's head. When lit, it emits toxic fumes from the Abyss.
+
+STATISTICS:
+
+Once per day, can create a Cloudkill centered on the smoker.~
+
+@5010013 = ~Concentrated Stone Nectar~
+@5010014 = ~This vial contains concentrated liquid stone, which, when sprayed on someone, solidifies and protects them like a Stone Skin spell. The vial contains enough liquid for five sprays.
+
+STATISTICS:
+
+Stone Skin spell on the person sprayed, 1D4+2 layers for 2 hours.~
+
+@5010015 = ~Mensel's Pervetere Wicked Grimoire~
+@5010016 = ~Mensel of Cormyr, the former lord of Immersye, was a good and generous man, driven by the best of intentions toward his fellow men. He was loved by his family, his servants, and all who lived on his lands. However, a secret chest was discovered in his study after the death of the good Lord Mensel, who passed away peacefully in his sleep. The heirs found some treasures there, as well as... Mensel’s Ignoble Pervetere Grimoire.
+
+The origins of this grimoire, as well as the identities of those connected to it in any way (with the notable exception of the good Lord Mensel), remain unknown, though the wildest rumors have been circulating about it for nearly a century. The scandal was sparked by the Prophet of Arabel, a pious young man who claimed that Lord Mensel had commissioned the grimoire for his personal use and had subsequently disposed of all those who had learned of the project... which, of course, irreparably tarnished the honor of the Mensel family.
+
+It was therefore decided to reduce the unholy grimoire to ashes, but to the great astonishment of the witnesses who had come to witness its destruction, it evaporated into acrid smoke instead of burning as it should have. Since then, the Unholy Grimoire of Mensel has made brief appearances in various places, never where one would expect to find it, and disappearing shortly thereafter.
+
+This heavy, black, leather-bound volume is filled with engravings depicting scenes of unprecedented violence and depravity. A single glance is enough for the reader to realize that nothing has been left out and that every subject, even the most taboo, has been addressed. However, those who have the courage to study it to the end realize that diabolical runes and other rituals are hidden within the illuminations on every page. Provided they possess the power to do so, the reader can thus summon a cacofiélon that will serve them before the tome vanishes once more.
+
+STATISTICS:
+
+Special:
+Reading the grimoire casts Protection Against Evil and Cacofielon.
+The Ignoble Grimoire of Mensel disappears after use or when an attempt is made to destroy it.
+Weight: 1~

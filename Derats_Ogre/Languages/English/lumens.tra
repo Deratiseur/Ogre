@@ -1,0 +1,175 @@
+@1 = ~My strangely marvellous wares are fantastic goods you won’t find anywhere else, my dear customer. Between the unique 11th-level spells created for me by my aunt Bertele the Archmage and the enchanted items I craft myself, you won’t know where to look in my quaint little shop.~
+@11 = ~All right, then show me that, please.~ //MERCHANT
+@12 = ~Level 11 spells? Show me that, quick!!~ //MERCHANT
+@13 = ~All right. Well, that’s all very nice, but I’m in no rush to do business. I’m actually here for my friend *points to Tragar*.~ //303
+@14 = ~Okay. Well, that’s all well and good, but I’m in no rush to trade. I’m here to talk to you about a blue ogre who claims he was a dwarf before he drank one of your potions~ //5
+@15 = ~Thanks for the info. I’ll be back.~
+
+@2 = ~Oh, but... dear customer, when you sell strangely marvellous wares, you’re bound to be strangely marvellous yourself, aren’t you?~
+@21 = ~Well, okay. So what are these strangely marvellous wares?~ //1
+@22 = ~That makes sense. So, show me your marvels, let’s see.~ //3
+@23 = ~Right. Well, I'm here for my friend the ogre.*points to Tragar*~ //303
+@24 = ~Right. Well, I came to see you to discuss a blue ogre who claimed to have been a dwarf before drinking one of your potions~ //5
+
+@3 = ~Strangely marvellous, not “marvels.” My items aren't strictly speaking “marvels” as conceived by the gods or scholars, but they all have something marvellous about them. Plus, they’re truly one-of-a-kind, and you won’t find them anywhere else but on my stall. No, really, take a look, my good sir, and I guarantee you won’t be disappointed.~~Strangely marvellous, not “marvels.” My items aren't strictly speaking “marvels” as conceived by the gods or scholars, but they all have something marvellous about them. Plus, they’re truly one-of-a-kind, and you won’t find them anywhere else but on my stall. No, really, take a look, my good lady, and I guarantee you won’t be disappointed.~
+@31 = ~Marvels or strangely marvellous wares, call them what you will, but show them to me, for heaven’s sake!~ //MERCHANT
+@32 = ~One of a kind, you say? Well, I’ll have to see that for myself....~ //MERCHANT
+@33 = ~Yeah, well.... Can we take a look?~ //MERCHANT
+@34 = ~Actually.... No, thanks. Goodbye~
+
+@4 = ~Greetings, dear customer. What strangely marvellous good will I, the marvellous Lumens, be able to offer you today?~
+@41 = ~Marvellous? That's a bit pompous, isn't it?~ //2
+@42 = ~What are these “strangely marvellous wares”?~ //1
+@43 = ~Show me your wares, please.~ //MERCHANT
+@44 = ~Nothing special, I'm here for my friend the ogre over there. *points to Tragar*~ //303
+@45 = ~Nothing special, I’m here to see you about a dwarf who was supposedly turned into a blue ogre after drinking one of your potions.~ //5
+@46 = ~Nothing special, I was just passing by~
+
+@5 = ~A potion bought from me? Impossible, I don’t think I sell ogre-transformation potions. Although... Wait! He’s blue, that’s the color of blueberries. Could it be that....~
+@51 = ~What? Spit it out, gnome!~ //6
+@52 = ~Did you find out what happened to him?~ //7
+
+@6 = ~Hey, calm down, hot-headed customer. I had nothing to do with what happened to him. I take no responsibility for it. The potion that the aforementioned dwarf drank clearly said “experimental potion for permanent enhancement.” It was an experiment, and he was warned.~
+@61  = ~No responsibility? This “ogre” is suffering from his condition and can’t show his face in town without the militia trying to kill him, and that’s all it does to you?~ //208
+@62 = ~Experimental? What kind of merchant are you?~ //205
+@63 = ~And that’s it? You must at least have a way to return him to his normal state, right?~ //203
+
+@7 = ~Yes, I think so. I only have one potion that contains blueberries, and it’s for the taste:  experimental potion for permanent muscle enhancement. I’m seeing now what the experiment yields. But please don’t blame me, I don’t feel responsible for it. The word “experimental” was clearly written on the label, and this dwarf gentleman drank it fully aware of the risks.~
+ //= ~62 =
+@71 = ~Well, then, if you know what put him in this state, maybe you could give him something to restore him to his normal form?~ //203
+@72 = ~It’s a strange experiment, this one that turns customers into ogres. My friend can’t take a step outside without the militia wanting to kill him.~ //8
+
+@8 = ~And I’m truly sorry about that; but what can I do? Unfortunately, I didn’t plan for any potential negative side effects of my potion, and besides, the shop doesn’t offer after-sales service. Well, not for free, in any case.~
+@81 = ~You’re a tough negotiator. Very well, what would you ask for to find a way to counter the undesirable effect of your potion?~ //209
+@82 = ~That’s the last straw. And you call yourself a merchant?~ //10
+@83 = ~That’s a good one. And what would you say if I offered to tell Inspector Brega what you do to your customers?~ //9
+
+@9 = ~Why would Inspector Brega waste his time on an honest merchant like me? I simply collect and sell exceptional items; there’s nothing reprehensible about that. It’s true, I make up some of them and sell them, and a strange thing happened to your friend. But I don’t force any customer to try my potions... They are on my stall, with a clear warning label. Your threats don’t faze me, dear sir.~~Why would Inspector Brega waste his time on an honest merchant like me? I simply collect and sell exceptional items; there’s nothing reprehensible about that. It’s true, I make up some of them and sell them, and a strange thing happened to your friend. But I don’t force any customer to try my potions... They are on my stall, with a clear warning label. Your threats don’t faze me, dear lady.~
+@91 = ~Pfft. I see. So what do you want me to do to invent a cure for his condition, then?~ //207
+@92 = ~If that’s how you take it, we have nothing more to say to each other, sir *walks away*.~
+
+@10 = ~Of course, dear sir, and you’re right here in my shop. If the store doesn’t offer after-sales service, it’s simply because no merchant should waste their time and money dealing with a customer who’s dissatisfied with their purchase after the fact, since people are perpetually dissatisfied anyway. It’s a simple, easily understood mathematical rule that’s been in my family for five generations. That being said, there are always possible remedies against magic, whatever form it takes, so for a few coins I can concoct a potion to counteract the one your ogre friend ingested. Interested?~~Of course, dear madam, and you’re right here in my shop. If the store doesn’t offer after-sales service, it’s simply because no merchant should waste their time and money dealing with a customer who’s dissatisfied with their purchase after the fact, since people are perpetually dissatisfied anyway. It’s a simple, easily understood mathematical rule that’s been in my family for five generations. That being said, there are always possible remedies against magic, whatever form it takes, so for a few coins I can concoct a potion to counteract the one your ogre friend ingested. Interested?~
+@101 = ~It depends on the price.~ //301
+@102 = ~Yes.~ //301
+@103 = ~Just give me the recipe, I'll figure it out myself.~ //201
+
+@201 = ~It doesn’t work that way, my good sir. The potion that needs to be created must be the exact opposite, or nearly so, of the one causing your friend’s discomfort, and since I created it spontaneously, I can only recreate the other one in the same way; I must think about its ingredients, concoct it, and add the elements that will make it effective. This is not something whose secret I can reveal. So let’s say I’m only asking you to pay for my creative work, and I’m offering you the concoction for free.~~It doesn’t work that way, my good lady. The potion that needs to be created must be the exact opposite, or nearly so, of the one causing your friend’s discomfort, and since I created it spontaneously, I can only recreate the other one in the same way; I must think about its ingredients, concoct it, and add the elements that will make it effective. This is not something whose secret I can reveal. So let’s say I’m only asking you to pay for my creative work, and I’m offering you the concoction for free.~
+@2011 = ~You’re a shrewd businessman, Lumens. All right, name your price.~ //301
+@2012 = ~How can I be sure the potion will work, given what you’re telling me?~ //202
+
+@202 = ~The potion your friend drank really worked on him, didn't it? If I make a potion based on the same principle but with the opposite effect, I should get the opposite result. It's simple, but this is how it's always worked.~
+@2021 = ~Hmm. If you say so. Okay, how much?~ //301
+@2022 = ~I don’t know. None of this inspires confidence in me. I think I’ll go find a real healer instead *walks away*.~
+
+@203 = ~Yes, I think I know a way. For a few coins, I can concoct a potion that should counteract the effects of the one your friend drank. Interested?~
+@2031 = ~You don’t even offer after-sales service? After all, it was a defective item from your store that put him in this condition.~ //204
+//= 101 =
+//= 102 =
+//= 103 =
+
+@204 = ~The store does not offer after-sales service. It’s a principle that’s been in my family for five generations. Because where would commerce be if all shopkeepers started spending time and money on a customer who was dissatisfied with their purchase after the fact? Since people are perpetually dissatisfied, it would be an endless spiral and the death of all businesses. No, Lumens’ Strangely Marvellous Shop does not and will never provide after-sales service, at least not for free.~
+@2041 = ~Pfft. I see. So how much is the counter-potion, then?~ //301
+@2042 = ~Forget it. I’d rather see a real healer in that case. *walks away*.~
+
+@205 = ~One of the greatest, without a doubt. Who else could offer unique items that defy the imagination and transcend reality? It took five generations of the Ratebois family to amass all these marvels, and I’m all the more proud to show off my shop.
+I admit, it’s true, that some of these items are of my own creation and are purely theoretical. But what would life be without a little unpredictability? Note, however, that no customer buys my items without knowing what they’re getting into. There’s an explanatory note warning of the chaotic potential of my creations on each of my items.~
+@2051 = ~Still.... transforming a person and turning them pastel blue is quite an effect for a simple potion!~ //206
+@2052 = ~I see. Well, as a merchant, perhaps you know how to restore my friend to his original state?~ //203
+
+@206 = ~That's right. And that's exactly why, to restore your friend to his original state, I'm thinking of concocting an equally powerful antidote for a few coins. The exact opposite of the one he drank, to be precise. Interested?~
+//= 2031 =
+//= 101 =
+//= 102 =
+//= 103 =
+
+@207  = ~Since it was one of my potions that transformed your friend, I can concoct an antidote for a few coins: the opposite of the first one, which should reverse its effects. Are you interested?~
+//= 2031 =
+//= 101 =
+//= 102 =
+//= 103 =
+
+@208 = ~I’m truly sorry, believe me; but what can I do? Unfortunately, I didn’t plan for any potential negative effects of my potion, and besides, the shop doesn’t offer after-sales service. At least, not for free.~
+//= 81 =
+//= 82 =
+//= 83 =
+
+//@209 = 207 =
+//= 101 =
+//= 102 =
+//= 103 =
+
+@210 = ~Yes, I remember. If you’re willing to listen to me, know that I can concoct a potion for your friend that’s the opposite of the one he ingested, which should restore him to his original form. Are you interested?~
+// =3051 =
+// =3052 =
+
+@301 = ~Since I don’t have the ingredients needed to make the antidote, and my assistant still hasn’t returned from his errand, I’ll only charge you 150 coins for the potion, since you’ll have to go get the ingredients yourself. Unless, of course, you’d rather wait for my assistant to return, but I really couldn’t tell you how long that will take; it seems he’s actually disappeared.~
+@3011 = ~Give us the list, we’ll go get those ingredients.~ //302
+@3012 = ~We’ll wait. We’ll be back. *leaves*.~
+
+@302 = ~Wait a moment, I’ll write it up for you. Here you go. Take as long as you need to find everything; my shop isn’t going anywhere, and your ogre friend won’t disappear. I’ll wait for your return. Good luck.~
+@3021 = ~Goodbye *leaves*.~ //GIVE LIST JOURNAL 501
+@3022 = ~Wait! I’d like to see your items before you leave.~ //MERCHANT
+
+@303 = ~Yes, what can I do for your big friend? An elastic breastplate in his size, perhaps? I just happened to get a very nice one in recently, made of steppe caribou leather. Elegant, durable, and of course...~
+@3031 = ~...No, that’s not it at all. This ogre claims he’s a dwarf and that a potion bought from you turned him into a blue-skinned ogre.~ //5
+
+@304 = ~Ah, returning customers. So my shop has inspired you to make a few purchases?~
+@3041 = ~Actually, we’re back to settle the matter of our “blue” ogre friend who’s here, you remember?~ //305
+@3042 = ~Actually, we’re back to settle the matter of that blue ogre who’s hiding in town, you remember?~  //305
+@3043 = ~That’s right; please show us your wares~ //MERCHANT
+//= 46 =
+
+@305 = ~Yes, I remember. So, you’ve come back to me because you couldn’t find any “alternative” solution? Very well. My offer still stands: I can concoct a potion that will have the opposite effect of the one your ogre friend drank, which should restore him to his dwarf form.~
+@3051 = ~We accept. Name your price.~ //301
+@3052 = ~We accept. Why else would we have come back?~ //306
+
+@306 = ~Why would you come back to see the marvellous Lumens? For his strangely marvellous wares, of course. But enough chatter: I propose to concoct the potion for a mere 150 coins, because you’ll have to help me. Since my assistant has disappeared, I have neither new items for my shop nor ingredients for the potion. So you’ll have to find them yourselves. It’s unfortunate, but I really can’t do anything else.~
+//= 3011 =
+@3061 = ~We’d rather wait for your assistant. We don’t have time to go shopping. * Goodbye*~
+
+@307 = ~Back already? Unfortunately, my assistant still hasn’t returned, and neither have the goods he was supposed to bring back. Don’t you still want me to give you the list of ingredients to find for the potion you need?~
+@3071 = ~We’ve waited long enough. Give us the list and we’ll go get those ingredients.~ //302
+@3072 = ~No, we just came back to check on your shop.~ //MERCHANT
+@3073 = ~Oh well, we’ll be back. *leaves*~ //307
+
+@308 = ~You’re back! So, did you find everything I told you to, so I can get to work?~
+@3081 = ~Yes, we have everything you need. Take all of this, along with these 150 gold coins, and get to work.~ //309
+@3082 = ~Yes, we have everything you need. Please prepare the potion.~ //309
+//= 3072 =
+@3083 = ~No, we were just passing through.~
+
+@309 = ~Here’s your potion. Have your friend drink it, and it should restore him to his normal dwarf form. I hope this small favor leaves you with fond memories of my shop. Have a nice day, dear customers.~
+@3091 = ~Given the effort it took us to find your ingredients, this potion better work, or I won’t be held responsible. *leaves*~ //GIVE POTION JOURNAL 502
+@3092 = ~Thank you, Lumens. We’ll come back to let you know how it goes. *leaves*~ //GIVE POTION JOURNAL 502
+
+@400 = ~Ah, returning customers. Did something... *spots Tarngarn* Oh no, I think I know why you’re here...~
+//Externalization Tragar 306
+
+@401 = ~I’m truly sorry my de-transformation potion didn’t work. Honestly, I feel for you. Hmm... *thinks*. I don’t see any permanent solution I could offer you, but I do sell a spell that might help: “Chameleon.” If you can have a skilled mage make it permanent, it might get you out of this mess. Unfortunately, that’s all I have to offer.~
+@4011 = ~And you think that’ll be enough?~ //402
+@4012 = ~And you yourself aren’t capable of casting Permanence?~ //403
+@4013 = ~You really are a dishonest merchant, you know?~ //406
+
+@402 = ~I have nothing else to offer, as I said. I sincerely thought my last potion would have the desired effect, and I put two pink ingredients in it for that reason. I admit I missed something in the recipe, but I really don’t see what else I can do.~
+//Externalization Tragar 307
+
+@403 = ~If I could, rest assured I would have suggested it. I only know this spell by name; I don’t have the experience needed to master such a powerful spell. But others surely can. Here, I can make “another” goodwill gesture: if you find a mage to cast Chameleon and Permanence on the blue dwarf (sir? *addressing Tarngarn*), I’ll pay 10 percent of the mage’s fee.~
+@4031 = ~What? But that’s dishonest!!~ //405
+@4032 = ~“Another” one? But isn’t it only normal to help your customers if your products are what caused their problem?~ //407 (If not, go to dialogue 10 or 204)
+@4033 = ~10 percent isn’t much, but given the price the mage might charge if we find him, it’ll add up to a hefty sum. Are you sure about what you're offering?~ //Tragar Outsourcing 39
+@4033 = ~Thank you, that's a generous offer. All we have to do now is find a mage who can cast both spells.~ //Tragar Outsourcing 309
+
+@405 = ~What do you mean, dishonest*visibly annoyed*?! I CAN’T cast that spell. Do you think I’m refusing out of self-interest? Who do you take me for? I can’t cast that spell, and I’m trying to do everything I can to help you. What more do you want?~
+//Externalization Tragar 308
+
+@406 = ~What do you mean, dishonest*visibly annoyed*?! I tried to help you, and I’m still trying. Do you think I’m trying to sell you this minor spell out of pure self-interest? Who do you take me for?~
+//Externalization Tragar 308
+
+@407 = ~Yes, again. The potion I concocted for you was already a gesture of goodwill on my part, given the price you paid for it, since the store doesn't offer after-sales service. Today I'm making you another generous offer that goes against store policy; I think you should be satisfied with it.~
+@4071 = ~No, but.... this is.... *getting angry*~//Tragar's Externalization 38
+@4072 = ~Huh? Well, thanks then.~ //Tragar's Externalization 39
+
+@501 = ~Encounter with a blue ogre
+I found the merchant who turned the dwarf Tragar into a blue ogre. He asked me to find certain ingredients to brew a restorative potion.~
+@502 = ~Encounter with a Blue Ogre
+I provided Lumens with all the ingredients he needed to brew a restorative potion. This potion should restore Tragar, the blue ogre, to his dwarf form.~

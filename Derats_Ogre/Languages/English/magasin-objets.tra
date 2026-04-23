@@ -1,0 +1,157 @@
+@101 = ~Successful drunkenness mug~
+@102 = ~Successful drunkenness mug:
+
+This mug, inlaid with distorted runes, has the power to turn any liquid it contains into alcohol and amplify its effects. Thus, no matter what drinking session the user takes part in with this magical mug, they are sure to get drunk.
+
+PARAMETERS:
+
+Drinking from the mug inevitably makes the user drunk.
+Beware of overuse.~
+
+@103 = ~The Great Blue Book of Ultimate Truth~
+@104 = ~The Great Blue Book of Ultimate Truth
+
+Many sages know of the existence of this book, which contains all the knowledge of the universe as well as every spell created by magicians since the world began. The aura emanating from it is so strong that even the least gifted of apprentice magicians can detect it.
+Unfortunately, The Great Blue Book of Ultimate Truth is written in archaic Enochian from the 3rd millennium, a language of such obscurity that no one today is capable of deciphering it: not even a “Wish” spell cast by a deity can fathom its meaning (archaic Enochian is something else!).
+Since the book contains all spells, it naturally includes one titled “Reading Archaic Enochian of the 3rd Millennium with Ease.” What a pity that it, too, is written in Archaic Enochian...~
+
+@105 = ~Comprehensive Compendium of the Multiple Arts~
+@106 = ~Comprehensive Compendium of the Multiple Arts
+
+This book, dating from the 3rd millennium and written in Archaic Enochian, describes in detail all the techniques and knowledge necessary for and applied by every profession known since the creation of the universe.
+It functions as a magical treatise, and when read in its entirety, it grants its user boundless versatility, allowing them to master every existing profession and class.
+It naturally grants the reader the knowledge of a translator and the ability to read archaic Enochian from the 3rd millennium with ease, if necessary.~
+
+@107 = ~Pachydermo-Suspicious Detector of Anenyl the Deceitful.~
+@108 = ~Pachydermo-Suspicious Detector of Anenyl the Deceitful
+
+This jade ring was commissioned by Lord Anenyl of Téthir in the early days of his madness, before he was completely consumed by paranoia and locked himself away forever in his fortress, which has lain in ruins ever since. No one knows which genius blacksmith could have crafted this ring, just as no one knows how it ended up in the store’s inventory...
+This artifact allows you to detect shape-shifted elephants. Used to reveal a creature’s true form, it turns red if the target is a shape-shifted elephant; it does not react otherwise.
+
+PARAMETERS:
+
+Detects a shape-shifted elephant twice per day.~
+@1081 = ~Detection of shape-shifted pachyderms~
+@1082 = ~The target is not a shape-shifted elephant.~
+
+@109 = ~Shell of Neomem the Mischievous.~
+@1010 = ~Shell of Neomem the Mischievous.
+This shell, forged by Neomem the Mischievous, a were-turtle by nature, allowed him to avoid traps while in his transformed state. Indeed, his turtle-like slowness meant he wasn’t limited to stepping on a trap with just one foot, and allowed him to endure the pain of said traps for a long time, which was rather inconvenient... Something had to be done about it, hence the creation of this item.
+
+PARAMETERS:
+This shell grants any turtle that wears it the abilities of a level 7 rogue.~
+
+@1011 = ~All-Killing Arrow~
+@1012 = ~All-Killing Arrow
+
+The All-Killing Arrow is enchanted with two spells: the first, drawn from necromancy, allows it to kill a creature of a certain type if it fails a saving throw. The second spell is of an entropic nature, designed to affect a wide variety of creatures, virtually every type of creature existing on Faerun.
+
+PARAMETERS:
+When the arrow is fired, the type of creature it targets is chosen at random, and if the creature hit by the arrow is of the corresponding type, it must succeed on a saving throw against death with a -6 penalty or die.
+The arrow can therefore virtually kill any creature in a single shot.
+
+Damage: 1d6
+Damage type: projectile (piercing)
+Weight: 0
+Throwing weapon: bow
+Cannot be used by:
+Cleric
+Druid
+Mage~
+
+@1013 = ~Marvelous Discombulator.~ // Not yet done, over 3,500 possible effects.
+@1014 = ~Marvelous Discombulator.
+
+The joy of discovery, the thrill of fantasy....
+The Marvelous Discombulator is a fantastic gnomish contraption, capable of warping reality to produce a magical effect.
+The Discombulator is capable of generating any magical effect, as it possesses extraordinary power. A spectacle guaranteed!
+
+PARAMETERS:
+
+Special Abilities (one charge): Wonderful Magic.~
+
+@1015 = ~Surprise Potion.~
+@1016 = ~Surprise Potion.
+
+It is impossible to know the effect of this potion. Unconventional, it cannot be identified. It is one of the many potions created by the gnome alchemist Oswald Tordviolon, which he tested on cows in Kuldahar.
+One of the shop clerks found this potion in the grass under the great oak tree, and it is now part of the shop’s inventory.
+
+Unfortunately, there is no way to know what it does other than by drinking it.~
+
+@1017 = ~Lyre of Visceral Musicality.~
+@1018 = ~Lyre of Visceral Musicality
+
+This cursed lyre was crafted for Gwendaelle Diar'sélie, an eccentric bard whose love for music was matched only by her talent. Gwendaelle was convinced that music was the most beautiful thing in the world, far less frivolous than swordplay and less dangerous than the magical arts. In the early days of her megalomaniacal madness, she had this lyre made so that “everyone could add a note to the music of the world.” The lyre is cursed, and anyone who plays it, even if only by plucking a few strings, is immediately imbued with the same musical talents and the same love of music as Gwendaelle herself, with the result that they completely forget their current profession to embrace that of a bard. The effect is irreversible; the victim, having become a bard through the lyre’s influence, can no longer conceive of being anything else. Only a wish spell might restore the victim to their former state of mind.
+
+PARAMETERS:
+
+Playing the lyre irrevocably transforms the user into a bard.~
+
+@1019 = ~Summoning Potion of Horde of Anti-Mutant-Killer-Carrots from Space.~
+@1020 = ~Summoning Potion of Horde of Anti-Mutant-Killer-Carrots from Space.
+
+If your world is under attack by the terrible Mutant Killer-Carrots from Space, don’t panic. Elsewhere in the universe, there exists a race that is the worst enemy of the Mutant Killer-Carrots from Space, and this candy allows you to summon a horde of them. If there are any Mutant Killer-Carrots from Space in the area, the Horde will take care of them.
+
+PARAMETERS:
+
+Bite into this candy to summon a Horde of Anti-Mutant Killer-Carrots from Space~
+@10201 = ~No Mutant Killer-Carrots from Space detected. We’re heading home.~
+
+@1021 = ~Manuscript of the Inconceivable~
+@1022 = ~Manuscript of the Inconceivable
+
+What you took for an unassuming book secured by a small brass lock is actually bound in strange leather and sealed with enchanted bronze. Its name appears to be the “Manuscript of the Inconceivable”.~
+@10221 = ~How can I put this? It’s... indescribable~
+@10222 = ~It was... It is... I...~
+@10223 = ~It’s... Um.....Baaaaaahh......~
+@10224 = ~But.... Could it be..... Ugh, no, it can't be!~
+@10225 = ~Woooaahhhhhh!!!!!!~
+@10226 = ~I already know everything there is to know about this “book”~
+
+@1023 = ~Rat Summoning Flute~
+@1024 = ~Rat Summoning Flute.
+
+Playing this flute allows you to summon a rat three times a day, a TP-sized, non-aggressive rat that might eventually scare a shape-shifted elephant.~
+
+@1025 = ~Bag of Wonders~
+@1026 = ~This magical pouch opens onto the great extra-planar treasure hall of Thoth-Alem-Ra, from which the user can retrieve one item per day.
+The item taken from the pouch is always drawn from the treasure and can be anything, as the treasure is immensely vast and fantastically varied.~
+
+@1027 = ~Ring of Quasi-Invisibility~
+@1028 = ~This ring renders the wearer quasi-invisible. Since quasi-invisibility is not true invisibility, the wearer can perform any action while remaining quasi-invisible. Beings with sight can barely see the wearer, and the wearer gains a near-bonus to AC and saving throws.
+
+PARAMETERS:
+
+Armor Class: nearly +1
+Saving Throws against wands and breath attacks: nearly +1
+Special: can be worn simultaneously with a ring of protection.~
+
+@1029 = ~Violet Candy~
+@1030 = ~When this candy is chewed, sucked, or bitten into (as long as it remains in the mouth), the eater is under the effect of the “Garlidol's Singing Burps” spell. A great night out is guaranteed!~
+
+@1031 = ~Mint Chocolate~
+@1032 = ~After eating this chocolate, the eater is protected by the spell “Garlidol's Flowery Farts” for 2 hours.~
+
+@1033 = ~Universal Hourglass~
+@1034 = ~This rare and powerful artifact is unique in the world because it allows time to be completely stopped once per day across all planes and all existing worlds without exception. (The gods are also affected.) However, whoever activates the Hourglass is also immobilized by the time stoppage, which lasts 1 turn per hourglass turn.
+
+PARAMETERS:
+
+Stops time for everyone, including the user, for 1 turn.~
+
+@1035 = ~Chiantos Candy~ // Not done yet; haven’t figured out how to ask POC for permission without signing up for yet another forum.
+@1036 = ~If you don’t have the energy to crack jokes, or if your pun game is running low, the Chiantos Candy is for you. Chewing this dwarf-crafted treat made from mine mushrooms enriched with granite powder will ensure you never run out of mean things to say to your friends. You’ll even be able to dish out jabs like a true champion!
+
+Chiantos candies are an original creation of the Naheulband, imported into the Kingdoms by Lumens the Marvelous.
+
+PARAMETERS:
+Chewing the Chiantos candy allows you to crack jokes, limp, and take jabs from dawn till dusk without interruption (12 hours).~
+
+@1037 = ~Sandwich Sublimation Wand~
+@1038 = ~This wand is used to transform any ham-and-butter or Port-ponant rillettes sandwich into a Chocolate-Mussels-Anchovies sandwich, which is much better according to Garlidol Petipied, the wand’s creator.~
+
+@1039 = ~Ring of Immortality~
+@1040 = ~This gold ring is part of the “12 Rings of Immortality” set. On its own, this ring has no power other than to attract the attention of thieves of all kinds, but if worn together with the other 11 rings that make up the set (one on each finger) its wearer becomes immortal.~
+
+@1041 = ~Potion of Relief from Paralysis~
+@1042 = ~As its name suggests, this potion can relieve the paralysis of whoever drinks it.~

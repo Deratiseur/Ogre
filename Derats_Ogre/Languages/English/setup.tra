@@ -1,0 +1,58 @@
+@0 = ~The Ogre and the Gnome: A Story of Blue~
+@1 = ~Tragar~
+@2 = ~Lumens~
+@3 = ~Recipe for the anti-ogre-transformation potion (blue)~
+@4 = ~Recipe for the anti-ogre-transformation potion (blue):
+
+To brew this potion, which should restore a blue ogre to its “pink” dwarf form, I need the following ingredients:
+
+Two rat tails (from a very small, weak creature to counteract the strength-enhancing effect of the ogre hair in the previous potion).
+
+A pink lotus (To provide the pink color. A flower of perversion reserved for junkies, unlike the blueberries in the previous potion, a flower of delight for pastry chefs).
+
+A rabbit’s foot (Because a little luck always helps when you’re hoping for a specific effect).
+
+Cheese (for the taste, because rat tails and pink lotus, well, um... okay).
+
+A water opal (a crushed gem to enrich the mixture, and while we’re at it, a pale pink one to soften the effect of the pink lotus).
+
+Fairy dust (so the potion’s effects are permanent).~
+@5 = ~Rat tail~
+@6 = ~This is all that’s left of the rat you slaughtered.~
+@7 = ~Rabbit paw~
+@8 = ~This paw was cut from the corpse of the rabbit that unfortunately crossed your path.~
+@9 = ~Pink lotus~
+@10 = ~This flower, which has hallucinogenic properties when sniffed, is highly prized by drug users of all kinds.~
+@11 =  ~Fairy dust~
+@12 =  ~This terracotta vial contains fine fairy dust. This precious ingredient can likely be used for many magical spells.~
+@13 =  ~Cheese~
+@14 =  ~This piece of cheese smells good and looks tasty.~
+@15 = ~Lumens' Strangely Marvellous Wares~
+@16 = ~Tarngarn Briseroche~
+@17 = ~Potion to reverse the transformation into a blue ogre~
+@18 = ~This potion was concocted by Lumens, the eccentric gnome merchant. It should allow Tragar, the dwarf who was transformed into a blue ogre, to regain his normal form and color. That is, if the potion produces the desired effect....
+
+Cannot be used by:
+Anyone other than Tragar.~
+@19 = ~Sister of the Storm~
+@20 = ~The beauty of this finely crafted weapon is enhanced by the tiny runes of power engraved on its surface. Much time and effort went into crafting this weapon. A faint blue glow seems to emanate from the runes covering it.
+
+STATISTICS
+
+Combat Ability:
+5% chance on each hit to create a chain of lightning that deals 4D6 damage (to both allies and enemies)
+2% chance on each hit for lightning to strike the opponent, dealing 4D6 damage.
+
+TAC0: +1
+Damage: 1D8 +1
+Damage Type: Slashing
+Weight: 4
+Speed Factor: 4
+Proficiency: Axe
+Weapon Type: One-handed
+Strength Required: 10
+Cannot be used by:
+Druids
+Clerics
+Mages
+Thieves~

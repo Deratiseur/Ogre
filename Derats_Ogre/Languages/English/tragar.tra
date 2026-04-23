@@ -1,0 +1,122 @@
+@1 = ~Don't hit! Tragar nice!~
+@11 = ~Well now. And why should I spare you, you filthy ogre?~
+@12 = ~A nice ogre? Now I've seen everything.~
+@13 = ~What in the world is this BLUE ogre?~
+
+@2 = ~Tragar not ogre. Tragar dwarf. Tragar need help.~
+@21 = ~You claim to be a dwarf? No, you're an ogre. What happened to you, Tragar?~
+@22 = ~Tragar a dwarf? What kind of story is that? Don't mock me, ogre.~
+@23 = ~You need help? Go find your tribe.~
+@24 = ~I don't have time to listen to the whining of a stinking ogre. *Leave*~
+
+@3 = ~Tragar not lie. Tragar really dwarf. Tragar drink potion, become blue ogre, but Tragar still dwarf in head.~
+@31 = ~A potion? I really feel like you're pulling my leg, and I don't like it one bit.~
+@32 = ~You drank a potion and became a blue ogre?~
+@33 = ~Sure, and I'm the King of Cormyr!~
+
+@4 = ~Yes, that! Tragar drink potion, Tragar become blue ogre. Tragar no more dwarf. You help Tragar?~
+@41 = ~I see. Very well, then. Come with us, we will help you.~
+@42 = ~I don't know. Your story doesn't seem clear. A potion that turns you into a blue ogre? Never heard of it.~
+@43 = ~Tragar thinks I'm a fool, and Tragar is going to regret it.~
+
+@5 = ~It true! Tragar drink potion, become blue ogre. Potion from gnome merchant!~
+@51 = ~The potion came from a gnome merchant? Given their usual extravagance, that would explain a lot. Fine, it's a deal. Come with us, we'll help you.~
+@52 = ~Hmm... It still seems strange to me. I might go look for this gnome merchant, but you stay here. *Leave*~
+
+@6 = ~You mean. Tragar not need you. Go!~
+@61 = ~Well said. Farewell, ogre. *Leave*~
+@62 = ~Wait, I was joking. What happened to you?~
+@63 = ~No one speaks to me like that, especially not a filthy ogre. En garde!~
+
+@7 = ~It true! You mean. You leave. Tragar not need you.~
+@71 = ~You're right. Farewell, ogre. *Leave*~
+@72 = ~Oh no, not so fast. An ogre wandering the city must be worth its weight in gold to the local authorities.~
+
+@8 = ~You looking for fight? Tragar nice, not want fight.~
+// Keldorn intervenes to prevent the attack
+@81 = ~*Attack*~
+@82 = ~*Leave*~
+
+@9 = ~Alright, if you promise protect me from militia~
+@91 = ~Against the militia? That wasn't part of the plan. No thanks, we don't want the whole city on our backs. Wait here instead, we'll go find this merchant and come back for you.~
+@92 = ~Don't worry, as long as you're with us, we'll guarantee your safe passage.~
+
+@10 = ~Gnome merchant sell good strength potion. Tragar buy potion, drink potion, Tragar become ogre, blue.~
+@101 = ~A potion sold by a gnome merchant put you in this state? Given the extravagance that characterizes gnomes, that would explain quite a bit. Fine, it's a deal. Come with us, we'll help you.~
+@102 = ~I see. Tell us where this merchant is, we'll go see him.~
+
+@201 = ~Alright. Merchant be at the marketplace. Tragar wait.~
+
+@202 = ~You come back. What want?~
+@2021 = ~I've been thinking, and your story intrigues me. Care to tell me more?~
+@2022 = ~I figured the head of an ogre wandering the city would be worth a lot to the authorities.~
+
+@203 = ~Tragar find good strength potion. Tragar drink potion. Tragar become blue ogre. Tragar no more dwarf.~
+
+
+
+
+@204 = ~You leave. Tragar not like you.~
+
+@205 = ~You come back. Have found?~
+@2051 = ~We have a potion that should restore your normal form, Tragar.~
+@2052 = ~Yes. We spoke to the merchant, and he gave us a list of ingredients to brew a potion to cure you.~
+@2053 = ~No, not yet. We just came to see if you were still here.~
+
+@206 = ~Tragar not move. Tragar wait.~
+
+@207 = ~That good. Tragar can help you if want.~
+@2071 = ~No thanks. We just came to keep you informed; we don't need your help. Wait here, we'll be back.~
+@2072 = ~That's why we're here. Come with us, Tragar.~
+
+
+@2081 = ~Against the militia? That wasn't part of the plan. No thanks, we don't want the whole city on our backs. Wait here instead, we'll be back.~
+
+
+@30 = ~That good. Tragar drink this now.~
+@301 = ~It worked! I can't thank you enough, my friends. But...... Oops! I'm still blue!~
+@3011 = ~Ouch! We'll have to go back and see the merchant.~
+@3012 = ~I suggest you go back and see the merchant to complain yourself, as he probably won't believe us. To him, all customers are "eternally dissatisfied."~
+@3013 = ~It's unfortunate, but that's how it is. You'll have to get used to it.~
+@3014 = ~You are speaking normally now?~
+
+@302 = ~That's a real blow. But I've waited long enough. I came to the city for a job, and I hope it's not too late to finish it. I've regained my shape; my color will have to wait. The return to the clan will certainly be festive. Thanks again, my friends. Perhaps we'll meet again one day.~
+
+@303 = ~Hum.... it's surprising that you take it that way after spending so much time helping me. But I understand. Perhaps it was too much time. So be it; I thank you for what you've done, and I'll solve this last problem on my own. Thanks again, my friends. Farewell.~
+
+@304 = ~If possible, yes, and I thank you for it. But this time I won't let you go alone. I may be blue, but I'm a dwarf once more. I should be able to walk through the city without too much trouble (curious stares and mocking laughter aside, of course).~
+@3041 = ~If you wish to join us, you are welcome.~
+@3042 = ~Actually, there are already too many of us. Let's agree on a place where you'll be more comfortable waiting for us.~
+
+@305 = ~My friends, it shall not be said that I'll sit somewhere waiting again. I came to the city for a job, and I intend to accomplish it if there's still time. I thank you for what you've done for me, and for the rest, I'll manage. Thanks again.~
+
+@306 = ~Sir, as you can see, I am still blue, and this is because of your permanent strength potion. I would therefore truly appreciate it if you found a solution—an effective one this time—to restore my natural color.~
+
+
+@307 = ~Let's calm down. I'll take the spell. I have a job to do in the city, and I've delayed far too long. I don't have time to wait for another disastrous solution, so I'll finish what I have to do like this, and I'll settle the matter of my color when I return to the clan. They'll welcome me with a smile, that's for sure.~
+
+@308 = ~Whoa! I think everyone should calm down. I don't have time to look for a powerful mage anyway; I have work to do here. Too bad, I'll take the spell and do what I have to do; I'll look for an effective solution when I get home. For sure, the clan will welcome me with a smile.~
+
+@309 = ~Hum.... Actually, I have a job to do in the city, and after waiting so long I no longer have the time to look for a competent mage. Never mind, I'll take this little spell, and I'll see what I can do with it back at the clan. They'll certainly have a good laugh when they welcome me. Thanks again my friends, good luck with the rest.~
+
+@3010 = ~Ah, yes! It feels good, by the way. Stuck in my ogre form, I had trouble formulating complex sentences. I found a way to express myself by sticking to the basics, but it wasn't great. Ha bla, ha bla, it works. All the better. Let's continue.~
+@30101 = ~Alright. We're going back to see the merchant.~
+
+@30103 = ~It is well. We can leave you now.~
+
+@40 = ~Meeting a blue ogre.
+In the Athkatla cemetery I met an ogre... blue... who was hiding from the population. He told me he was actually a transformed dwarf, and I decided to help him regain his normal form.~
+@401 = ~Meeting a blue ogre.
+In the Athkatla cemetery I met an ogre... blue... who was hiding from the population. He told me he was actually a transformed dwarf, which I didn't believe.~
+@402 = ~Meeting a blue ogre.
+In the Athkatla cemetery I met an ogre... blue... who was hiding from the population. He told me he was actually a transformed dwarf, but I didn't believe him and I killed him.~
+@405 = ~Meeting a blue ogre.
+The potion restored Tragar the ogre to his dwarf form, but he is still blue. I offered to help but he refused to stay alone, and since I didn't want to recruit him, he left.~
+@406 = ~Meeting a blue ogre.
+The potion restored Tragar the ogre to his dwarf form, but he is still blue. We need to speak to Lumens again to correct his color.~
+@407 = ~Meeting a blue ogre.
+The potion restored Tragar the ogre to his dwarf form, but he is still blue. No matter, it was no longer our concern.~
+@408 = ~Meeting a blue ogre.
+We spoke to Lumens again about Tragar's condition. The discussion ended abruptly, with Tragar wanting to avoid any violence.~
+@409 = ~Meeting a blue ogre.
+We spoke to Lumens again about Tragar's condition. The discussion ended abruptly, as Tragar didn't have the patience to wait for another theoretical solution.~
