@@ -7,7 +7,8 @@
 
 **Autor** : **Deratiseur**
 
-[Link to original Mod Forum](https://www.baldursgateworld.fr/viewtopic.php?t=28812)
+[Lien vers le forum français](https://www.baldursgateworld.fr/viewtopic.php?t=28812)
+[Link to the beamdog forum](https://forums.beamdog.com/discussion/85149/mod-my-tiny-quest-mod-for-obg2-bgt-bg2ee-and-eet-now-in-english-and-russian/p1)  
 
 
 ## Description:
