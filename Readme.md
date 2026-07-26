@@ -16,8 +16,7 @@
 <tr>
 <td width="50%" valign="top">
 
-### Français
--------------
+## Français
 ### Description
 
 Une petite quête qui vous fera chercher tous un tas d'objets de différentes manières.
@@ -28,8 +27,7 @@ Pour démarrer la quête, parlez à un ogre surprenant planqué dans un endroit 
 
 <td width="50%" valign="top">
 
-### English
--------------
+## English
 ### Description
 
 A little quest that will have you searching for a whole host of objects in different ways.
@@ -42,8 +40,7 @@ To start the quest, talk to a surprising ogre hiding in a place where the guards
 <tr>
 <td width="50%" valign="top">
 
-### Русский
--------------
+## Русский
 ### Описание
 
 Небольшой квест, в котором вам предстоит отыскать множество предметов различными способами.
