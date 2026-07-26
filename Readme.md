@@ -8,8 +8,13 @@
 **Autor** : **Deratiseur**
 
 [Lien vers le forum français](https://www.baldursgateworld.fr/viewtopic.php?t=28812)  
-[Link to the beamdog forum](https://forums.beamdog.com/discussion/85149/mod-my-tiny-quest-mod-for-obg2-bgt-bg2ee-and-eet-now-in-english-and-russian/p1)  
+[Link to the beamdog forum](https://forums.beamdog.com/discussion/85149/mod-my-tiny-quest-mod-for-obg2-bgt-bg2ee-and-eet-now-in-english-and-russian/p1)
 
+<br>
+
+<table>
+<tr>
+<td width="50%" valign="top">
 
 ## Description:
 -------------
@@ -18,14 +23,34 @@ Une petite quête qui vous fera chercher tous un tas d'objets de différentes ma
 
 Pour démarrer la quête, parlez à un ogre surprenant planqué dans un endroit où les gardes ne viennent jamais.
 
+</td>
+
+<td width="50%" valign="top">
+
+## Description:
 -------------
 
 A little quest that will have you searching for a whole host of objects in different ways.
 
 To start the quest, talk to a surprising ogre hiding in a place where the guards never come.
 
+</td>
+</tr>
+
+<tr>
+<td width="50%" valign="top">
+
+## Описание:
 -------------
 
 Небольшой квест, в котором вам предстоит отыскать множество предметов различными способами.
 
 Чтобы начать квест, поговорите с удивительным людоедом, прячущимся в месте, где никогда не бывает стражников.
+
+</td>
+
+<td width="50%" valign="top">
+
+</td>
+</tr>
+</table>
