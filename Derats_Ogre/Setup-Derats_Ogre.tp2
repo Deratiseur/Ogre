@@ -42,6 +42,12 @@ LANGUAGE ~Russian~	~Russian~
 	~Derats_Ogre/Languages/Russian/Magasin-objets.tra~
 	~Derats_Ogre/Languages/Russian/Besace.tra~
 
+LANGUAGE ~Schinese~	~schinese~
+	~Derats_Ogre/Languages/schinese/Setup.tra~
+	~Derats_Ogre/Languages/schinese/Magasin-sorts.tra~
+	~Derats_Ogre/Languages/schinese/Magasin-objets.tra~
+	~Derats_Ogre/Languages/schinese/Besace.tra~
+
 BEGIN @0
 
 COPY	~Derats_Ogre/Bams/Quete~				~override~
